@@ -8,7 +8,7 @@ class Home extends Component {
   }
   render() { 
     return (  
-      <div>helllo</div>
+      <div className="main-wrapper">helllo</div>
     );
   }
 }

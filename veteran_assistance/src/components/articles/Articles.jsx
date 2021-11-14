@@ -9,9 +9,8 @@ class Article extends Component {
     render() { 
         return ( 
             <>
-            <div className="test">articles</div>
             <div className="main-wrapper"></div>
-            
+            <div className="test">articles</div>
             <p>HI GRAVE!!! This is Midnight!!</p>
             </>
          );

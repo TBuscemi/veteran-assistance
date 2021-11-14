@@ -1,5 +1,5 @@
 .nav-bar {
-  background-color: red;
+  background-color: #414141;
   position: fixed;
   height: 8vh;
   width: 100vw;
@@ -11,7 +11,7 @@
   font-size: 3vh;
   text-align: center;
   margin-right: 2vw;
-  color: chartreuse;
+  color: #E7B00F;
 }
 
 .ext-space {

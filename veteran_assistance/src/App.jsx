@@ -13,7 +13,6 @@ class App extends Component {
     return (  
       <div> 
         <RouterNav/> 
-        <div className="main-wrapper"></div>
       </div>
      
     );

@@ -9,7 +9,7 @@ class About extends Component {
     }
     render() { 
         return (
-            <div>about</div>
+            <div className="main-wrapper">about</div>
         )
     }
 }

@@ -8,7 +8,7 @@ class Mission extends Component {
     }
     render() { 
         return ( 
-            <div>
+            <div className="main-wrapper">
                 Mission
             </div>
          );
