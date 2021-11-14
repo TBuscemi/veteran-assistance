@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
+import Router from "./components/router/RouterNav"
 
 
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {  }
+    this.state = {}
   }
   render() { 
     return (  
-      <div>helllo</div>
+      <div> <Router/> </div>
     );
   }
 }
