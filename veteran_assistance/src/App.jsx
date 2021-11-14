@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Router from "./components/router/RouterNav"
+import RouterNav from './components/routerNav/RouterNav';
+
 
 
 class App extends Component {
@@ -9,7 +10,7 @@ class App extends Component {
   }
   render() { 
     return (  
-      <div> <Router/> </div>
+      <div> <RouterNav/> </div>
     );
   }
 }

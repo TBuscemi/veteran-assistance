@@ -1,23 +1,21 @@
-import { Nav, Navbar, NavbarBrand, } from 'react-bootstrap';
+import { Nav, Navbar, NavbarBrand} from 'react-bootstrap';
 import React, { Component } from 'react';
-import {
-    BrowserRouter as Router,
-    Route,Routes
-}from 'react-router-dom';
+import { Routes, Route} from "react-router-dom";
 
 class RouterNav extends Component {
     render() { 
         return(
             <div>
-                <Router>
                     <Navbar bg="black" variant="dark">
-                        <NavbarBrand href=""> Test! </NavbarBrand>
+                    <NavbarBrand href=""> Test! </NavbarBrand>
+                        <Nav> 
+                            <Nav.Item><Nav.Link id="textLinks" href="/">Home</Nav.Link></Nav.Item>
+                        </Nav>
                     </Navbar>
 
                     <Routes>
                         <Route></Route>
                     </Routes>
-                </Router>
             </div>
         )
     }
