@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,OAAO,CAAC,wFAAI;ADEZ,AAAA,KAAK,CAAA;EACD,WAAW,ECDH,oBAAoB,EAAE,KAAK;EDEnC,KAAK,ECAF,OAAO;CDCb",
     "sources": [
-        "Articles.scss"
+        "Articles.scss",
+        "../../Utilities/_variables.scss"
     ],
     "names": [],
     "file": "Articles.css"

@@ -1,0 +1,20 @@
+.nav-bar {
+  background-color: red;
+  position: fixed;
+  height: 8vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+}
+
+.text-links {
+  font-size: 3vh;
+  text-align: center;
+  margin-right: 2vw;
+  color: chartreuse;
+}
+
+.ext-space {
+  margin-left: 67vw;
+}
+/*# sourceMappingURL=RouterNav.css.map */

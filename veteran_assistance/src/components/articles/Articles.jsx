@@ -8,7 +8,12 @@ class Article extends Component {
     }
     render() { 
         return ( 
-            <div>articles</div>
+            <>
+            <div className="test">articles</div>
+            <div className="main-wrapper"></div>
+            
+            <p>HI GRAVE!!! This is Midnight!!</p>
+            </>
          );
     }
 }

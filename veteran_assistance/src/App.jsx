@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import RouterNav from './components/routerNav/RouterNav';
+import './style/App.css'
 
 
 
@@ -10,7 +11,11 @@ class App extends Component {
   }
   render() { 
     return (  
-      <div> <RouterNav/> </div>
+      <div> 
+        <RouterNav/> 
+        <div className="main-wrapper"></div>
+      </div>
+     
     );
   }
 }
