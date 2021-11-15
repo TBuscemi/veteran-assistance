@@ -16,10 +16,10 @@ class Home extends Component {
                 <h3 >Serving those who have proudly served! </h3>
                 </div>
             </div>
-            <div className="bot-container">
-                <div className="bot-right"></div>
-                <div className="bot-mid"></div>
-                <div className="bot-left"></div>
+            <div className="row bot-container">
+                <div className="col-4 bot-left"></div>
+                <div className="col-4 bot-mid"></div>
+                <div className="col-4 bot-right"></div>
             </div>
         </div>
         );

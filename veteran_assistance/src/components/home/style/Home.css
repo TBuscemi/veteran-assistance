@@ -5,14 +5,13 @@
 
 .home-container-bubble {
   background-image: url(../../../images/flag.jpg);
-  position: relative;
+  position: absolute;
   height: 40vh;
   width: 90vw;
   background-color: black;
   opacity: 75%;
   background-repeat: no-repeat;
   background-size: cover;
-  position: fixed;
 }
 
 .home-container-text {
@@ -24,41 +23,30 @@
 
 .bot-container {
   position: relative;
+  background-color: red;
   top: 45vh;
-  left: 9vh;
+  left: 11vh;
   height: 35vh;
   width: 90vw;
 }
 
 .bot-left {
   background-image: url(../../../images/acc.jpg);
-  position: relative;
-  top: 0;
-  background-color: black;
   height: 35vh;
-  width: 28vw;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .bot-mid {
   background-image: url(../../../images/people1.JPG);
-  position: absolute;
-  background-color: black;
-  margin-left: 59vh;
   height: 35vh;
-  width: 28vw;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .bot-right {
   background-image: url(../../../images/people3.JPG);
-  position: absolute;
-  background-color: black;
-  margin-left: 62vw;
   height: 35vh;
-  width: 28vw;
   background-repeat: no-repeat;
   background-size: cover;
 }

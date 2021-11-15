@@ -1,3 +1,4 @@
+
 .nav-bar {
     background-image: linear-gradient(rgb(39, 39, 39), rgb(58, 58, 58));
     position: fixed;
@@ -6,19 +7,42 @@
     top: 0;
     left: 0;
     min-height: 50px;
+    z-index: 2;
 }
 
 .text-links{
     font-size: 3vh;
     margin-right: 3vw;
     color: #fdfdfd;
-    
+    text-decoration: none;
+}
+
+.logo{
+    position: absolute;
+    height: 8vh;
+    width: 13vw;
+    left: 5vw;
+    background-image: url(../../../images/PLACE.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.nav-links{
+    margin-left: 17vw;
+    margin-top: 2vh;
 }
 
 
-.nav-links{
-    float: right;
-    text-align: center;
+.text-links:hover{
+    color: #E7B00F !important;
+}
+
+.bi{
+    fill: #fdfdfd;
+}
+
+.bi:hover{
+    fill: #E7B00F !important;
 }
 
 
