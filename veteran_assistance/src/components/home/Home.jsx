@@ -16,6 +16,11 @@ class Home extends Component {
                 <h3 >Serving those who have proudly served! </h3>
                 </div>
             </div>
+            <div className="bot-container">
+                <div className="bot-right"></div>
+                <div className="bot-mid"></div>
+                <div className="bot-left"></div>
+            </div>
         </div>
         );
     }

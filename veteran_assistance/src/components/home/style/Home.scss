@@ -1,23 +1,70 @@
 .home-container{
-    margin-left: 53.7vw;
-    margin-top: 30vh ;
+    margin-left: 5vw;
+    margin-top: 13vh ;
 }
-
+// background-image: url(../home/woodFloorDarkOpacity.png);
 
 .home-container-bubble{
+    background-image: url(../../../images/flag.jpg);
     position: relative;
     height: 40vh;
-    width: 40vw;
-    background-color: black;
-    opacity: 40%;
-    border-radius: 15%;
+    width: 90vw;
+    background-color: rgb(0, 0, 0);
+    opacity:75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
 }
 
 .home-container-text{
     color: gold;
     position: absolute;
-    top: 4vh;
-    right: 8vw;
+    top: 6vh;
+    right: 10vw; 
+}
 
-    
+
+.bot-container{
+    position: relative;
+
+    top: 45vh;
+    left: 9vh;
+    height: 35vh;
+    width: 90vw;
+}
+
+
+.bot-left{
+    background-image: url(../../../images/acc.jpg);
+    position: relative;
+    top: 0;
+    background-color: black;
+    height: 35vh;
+    width: 28vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bot-mid{
+    background-image: url(../../../images/people1.JPG);
+    position:absolute;
+    background-color: black;
+    margin-left: 59vh;
+    height: 35vh;
+    width: 28vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.bot-right{
+    background-image: url(../../../images/people3.JPG);
+    position: absolute;
+    background-color: black;
+    margin-left: 62vw;
+    height: 35vh;
+    width: 28vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
 }
