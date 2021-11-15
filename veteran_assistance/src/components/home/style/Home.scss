@@ -25,11 +25,10 @@
 
 .bot-container{
     position: relative;
-    background-color: red;
     top: 45vh;
-    left: 11vh;
+    left: 10vh;
     height: 35vh;
-    width: 90vw;
+    width: 91vw;
 }
 
 
@@ -38,6 +37,7 @@
     height: 35vh;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 
@@ -46,6 +46,8 @@
     height: 35vh;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 
@@ -54,6 +56,5 @@
     height: 35vh;
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
