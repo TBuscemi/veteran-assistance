@@ -17,9 +17,15 @@ class Home extends Component {
                 </div>
             </div>
             <div className="row bot-container">
-                <div className="col-4 bot-left"></div>
-                <div className="col-4 bot-mid"></div>
-                <div className="col-4 bot-right"></div>
+                <div className="col-4">
+                    <div className="bot-left"></div>
+                </div>
+                <div className="col-4">
+                    <div className="bot-mid"></div>
+                </div>
+                <div className="col-4">
+                    <div className="bot-right"></div>
+                </div>
             </div>
         </div>
         );
