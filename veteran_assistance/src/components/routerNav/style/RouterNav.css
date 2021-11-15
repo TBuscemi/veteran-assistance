@@ -43,4 +43,17 @@
 .bi:hover {
   fill: #E7B00F !important;
 }
+
+.social-media-container {
+  position: absolute;
+  margin-top: 2vh;
+  top: 0;
+  height: 5vh;
+  margin-left: 90vw;
+  text-align: center;
+}
+
+.bi-linkedin {
+  margin-right: 1vw;
+}
 /*# sourceMappingURL=RouterNav.css.map */
