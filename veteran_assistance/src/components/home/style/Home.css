@@ -1,1 +1,21 @@
-/* No CSS *//*# sourceMappingURL=Home.css.map */
+.home-container {
+  margin-left: 53.7vw;
+  margin-top: 30vh;
+}
+
+.home-container-bubble {
+  position: relative;
+  height: 40vh;
+  width: 40vw;
+  background-color: black;
+  opacity: 40%;
+  border-radius: 15%;
+}
+
+.home-container-text {
+  color: gold;
+  position: absolute;
+  top: 4vh;
+  right: 8vw;
+}
+/*# sourceMappingURL=Home.css.map */

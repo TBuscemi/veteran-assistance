@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Routes, Route, Link} from "react-router-dom";
+import { Routes, Route, Link,NavLink} from "react-router-dom";
 import Home from '../home/Home';
 import About from '../about/About';
 import Article from '../articles/Articles';
@@ -11,24 +11,28 @@ class RouterNav extends Component {
     render() { 
         return(
             <div>
-                <div class = "nav-bar">
-                <div class = "logo"> Test! </div>
+                <div className = "nav-bar">
+                <div className = "logo"> Test! </div>
                     <nav class = "nav-links"> 
-                        <Link  to="/" class="text-links ext-space">Home</Link>
-                        <Link  to="about" class="text-links">About</Link>
-                        <Link  to="mission" class="text-links">Mission</Link>                          
-                        <Link  to="article"class="text-links">Article</Link>
-                        <Link  to="contact" class="text-links">Contact</Link>
+                        <NavLink  to="/" className="text-links ext-space" style={({ isActive }) => {return {color: isActive ? "#E7B00F" : ""};}}> Home</NavLink>
+                        <NavLink  to="about" className="text-links" style={({ isActive }) => {return {color: isActive ? "#E7B00F" : ""};}}>About</NavLink>
+                        <NavLink  to="mission" className="text-links" style={({ isActive }) => {return {color: isActive ? "#E7B00F" : ""};}}>Mission</NavLink>                          
+                        <NavLink  to="article"className="text-links" style={({ isActive }) => {return {color: isActive ? "#E7B00F" : ""};}}>Article</NavLink>
+                        <NavLink  to="contact" className="text-links" style={({ isActive }) => {return {color: isActive ? "#E7B00F" : ""};}}>Contact</NavLink>
                     </nav>
                 </div>
 
                 <Routes>
                     <Route  path="/" element={<Home/>}/>
-                    <Route  path="about" element={<About/>}/>
+                    <Route  path="about"  element={<About/>}/>
                     <Route  path="article" element={<Article/>}/>
                     <Route  path="contact" element={<Contact/>}/>
                     <Route  path="mission" element ={<Mission/>}/>
                 </Routes>
+
+                <div>
+                
+                </div>
             </div>
         )
     }
