@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import RouterNav from './components/routerNav/RouterNav';
 import './style/App.css';
-import flag from './images/flag.jpg'
+import Footer from './components/footer/footer';
 
 
 
@@ -14,7 +14,7 @@ class App extends Component {
     return (  
       <div> 
       <RouterNav/> 
-      {/* <div class="flag-background-img" style={{backgroundImage:`url(${flag})`}}></div> */}
+      <Footer/>
       </div>
      
     );
