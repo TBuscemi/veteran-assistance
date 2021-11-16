@@ -1,4 +1,34 @@
-body {
+.about-me-container {
+  position: absolute;
   background-color: black;
+  height: 65vh;
+  width: 70vw;
+  margin-left: 15vw;
+  margin-top: 15vh;
+  border-radius: 23%;
+  opacity: 50%;
+}
+
+.about-me-picture {
+  background-image: url(../../../images/person.jpg);
+  position: absolute;
+  margin-left: 40vh;
+  margin-top: 17vh;
+  height: 59.5vh;
+  width: 30vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+}
+
+.about-me-text {
+  width: 50vh;
+  height: 50vh;
+  position: absolute;
+  margin-left: 55vw;
+  margin-top: 18vh;
+  font-size: 2vh;
+  color: gold;
+  border-radius: 20%;
 }
 /*# sourceMappingURL=About.css.map */
