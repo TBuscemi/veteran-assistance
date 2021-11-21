@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import RouterNav from './components/routerNav/RouterNav';
 import './style/App.css';
-import Footer from './components/footer/footer';
 
 
 
@@ -14,7 +13,6 @@ class App extends Component {
     return (  
       <div> 
       <RouterNav/> 
-      <Footer/>
       </div>
      
     );

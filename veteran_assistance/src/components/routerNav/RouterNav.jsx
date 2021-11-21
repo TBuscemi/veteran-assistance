@@ -5,7 +5,9 @@ import About from '../about/About';
 import Article from '../articles/Articles';
 import Contact from '../contact/Contact';
 import Mission from '../mission/Mission';
-import './style/RouterNav.css'
+import './style/RouterNav.css' 
+import Footer from '../footer/Footer'
+
 
 class RouterNav extends Component {
     render() { 
@@ -43,9 +45,8 @@ class RouterNav extends Component {
                     <Route  path="contact" element={<Contact/>}/>
                     <Route  path="mission" element ={<Mission/>}/>
                 </Routes>
-
                 <div>
-                
+                <Fiolk800ooter/>
                 </div>
             </div>
         )
