@@ -4,7 +4,7 @@ import Home from '../home/Home';
 import About from '../about/About';
 import Article from '../articles/Articles';
 import Contact from '../contact/Contact';
-import Mission from '../mission/Mission';
+import Mission from '../testimonials/Testimonials';
 import './style/RouterNav.css' 
 import Footer from '../footer/Footer'
 
@@ -18,8 +18,8 @@ class RouterNav extends Component {
                     <nav class = "nav-links"> 
                         <NavLink  to="/" className="text-links ext-space" style={({ isActive }) => {return {color: isActive ? "#E7B00F" : ""};}}> Home</NavLink>
                         <NavLink  to="about" className="text-links" style={({ isActive }) => {return {color: isActive ? "#E7B00F" : ""};}}>About</NavLink>
-                        <NavLink  to="mission" className="text-links" style={({ isActive }) => {return {color: isActive ? "#E7B00F" : ""};}}>Mission</NavLink>                          
-                        <NavLink  to="article"className="text-links" style={({ isActive }) => {return {color: isActive ? "#E7B00F" : ""};}}>Article</NavLink>
+                        <NavLink  to="testimonials" className="text-links" style={({ isActive }) => {return {color: isActive ? "#E7B00F" : ""};}}>Testimonials</NavLink>                          
+                        {/* <NavLink  to="article"className="text-links" style={({ isActive }) => {return {color: isActive ? "#E7B00F" : ""};}}>Article</NavLink> */}
                         <NavLink  to="contact" className="text-links" style={({ isActive }) => {return {color: isActive ? "#E7B00F" : ""};}}>Contact</NavLink>
                     </nav>
                     <div className="social-media-container">
@@ -41,12 +41,12 @@ class RouterNav extends Component {
                 <Routes>
                     <Route  path="/" element={<Home/>}/>
                     <Route  path="about"  element={<About/>}/>
-                    <Route  path="article" element={<Article/>}/>
+                    {/* <Route  path="article" element={<Article/>}/> */}
                     <Route  path="contact" element={<Contact/>}/>
-                    <Route  path="mission" element ={<Mission/>}/>
+                    <Route  path="testimonials" element ={<Mission/>}/>
                 </Routes>
                 <div>
-                <Fiolk800ooter/>
+                <Footer/>
                 </div>
             </div>
         )
