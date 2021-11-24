@@ -1,0 +1,48 @@
+@media only screen and (max-width: 575px) {
+    .home-container-bubble{
+        width: 90%;
+        opacity: 40%;
+    }
+    .home-container-text{
+        text-shadow: 4px 4px 8px black;
+    }
+    .home-container-text h3 {
+        margin-left: 1rem;
+        font-size: 2.5rem;
+        text-align: center;
+        width: 80%;
+    }
+    .bot-container{
+        width: 100%;
+        left: 1.2rem;
+    }
+    .bot-left{
+        display:none;
+    }
+    .bot-mid{
+        display:none;
+    }
+    .bot-right{
+        width: 95%;
+    }
+
+
+    .nav-bar{
+        width: 100rem;
+    }
+    .text-links{
+        font-size: .75rem;
+    }
+    .nav-links{
+        margin-left: 5rem;
+    }
+    .bi-email{
+        height: 1rem;
+    }
+    .bi-linkedin{
+        height: .80rem;
+    }
+    .social-media-container{
+        margin-top: .80rem;
+    }
+}

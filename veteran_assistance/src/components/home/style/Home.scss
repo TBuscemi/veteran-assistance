@@ -19,9 +19,13 @@
     color: gold;
     position: absolute;
     top: 6vh;
-    right: 10vw; 
 }
-
+.home-container-text h3{
+    font-size: 5rem;
+    width: 40%;
+    margin-left: 55rem;
+    text-shadow: 9px 9px 15px black;
+}
 
 .bot-container{
     position: relative;
@@ -57,5 +61,12 @@
     height: 35vh;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.bi-email{
+    height: 3rem;
+}
+.bi-linkedin{
+    height: 2.25rem;
 }
 
