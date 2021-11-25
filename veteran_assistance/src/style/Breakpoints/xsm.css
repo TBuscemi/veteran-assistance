@@ -45,4 +45,25 @@
     .social-media-container{
         margin-top: .80rem;
     }
+
+
+    .about-me-background{
+        margin-top: 5vh;
+        width: 90%;
+        margin-left: 1rem;
+        height: 53rem;
+    }
+    .about-me-picture{
+        margin-top: 10vh;
+        margin-left: 7rem;
+        border-radius: 5px;
+        width: 10rem;
+    }
+    .about-me-text{
+        margin-top: 16rem;
+        margin-left: 2rem;
+        width: 20rem;
+        text-align: justify;
+        padding-right: 1rem;
+    }
 }
