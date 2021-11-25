@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./style/Testimonials.css"
-import "../../images/15027718_10210185771413577_4029136754926803570_n.jpg"
+
 
 
 class Mission extends Component {
@@ -13,7 +13,7 @@ class Mission extends Component {
             <div className="main-wrapper">
                 <div Testimonials className="testimonials-container">
                     <div className="container">
-                        <img src="" alt="Avatar"/>
+                        <img src="../../../images/guy1.jpg" alt="Avatar"/>
                         <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus enim, tenetur excepturi aliquid sed, doloribus minima eaque provident, qui aliquam inventore atque fuga accusamus soluta debitis tempore consequatur minus aut!.</p>
                     </div>
