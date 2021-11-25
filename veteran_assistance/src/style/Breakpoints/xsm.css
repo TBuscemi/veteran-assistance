@@ -51,19 +51,26 @@
         margin-top: 5vh;
         width: 90%;
         margin-left: 1rem;
-        height: 53rem;
+        height: 105%;
     }
     .about-me-picture{
         margin-top: 10vh;
-        margin-left: 7rem;
         border-radius: 5px;
         width: 10rem;
+        margin-left: auto;
+        margin-right: auto;
+        position:relative;
     }
+
     .about-me-text{
-        margin-top: 16rem;
-        margin-left: 2rem;
+        margin-top: -60%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
         width: 20rem;
         text-align: justify;
-        padding-right: 1rem;
+        position: relative;
+        font-size: 1rem;
     }
 }

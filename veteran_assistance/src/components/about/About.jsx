@@ -16,7 +16,6 @@ class About extends Component {
                         <p>  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa non blanditiis eius eligendi hic modi, accusantium excepturi vero debitis vitae sunt repellat tempore praesentium aliquam itaque adipisci, cum enim reiciendis?
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium rerum vel debitis consectetur, perspiciatis quia totam odio atque quos nostrum odit ratione dolores obcaecati esse molestiae, assumenda nisi accusamus officia?
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia omnis vel tempora odit recusandae saepe esse fuga. Autem suscipit nihil, tenetur totam praesentium nostrum atque in modi, quis nulla dignissimos?
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas tempore cupiditate sequi qui consequatur voluptatem quos ducimus ipsam repellat! Dolorum sunt ullam nisi possimus illum officiis architecto doloribus fugiat quae.
                         </p>
                     </div>
                 </div>
