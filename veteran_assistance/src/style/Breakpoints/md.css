@@ -52,7 +52,7 @@
         margin-top: 5vh;
         width: 90%;
         margin-left: 1rem;
-        height: 105%;
+        height: 125%;
     }
     .about-me-picture{
         margin-top: 10vh;
@@ -64,14 +64,14 @@
     }
 
     .about-me-text{
-        margin-top: -27%;
+        margin-top: 5%;
         margin-left: auto;
         margin-right: auto;
         padding-left: 1rem;
         padding-right: 2rem;
-        width: 40rem;
+        width: 45rem;
         text-align: justify;
         position: relative;
-        font-size: 1.75rem;
+        font-size: 1.5rem;
     }
 }
