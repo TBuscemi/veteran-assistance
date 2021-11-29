@@ -18,7 +18,7 @@ class RouterNav extends Component {
                     <nav class = "nav-links"> 
                         <NavLink  to="/" className="text-links ext-space" style={({ isActive }) => {return {color: isActive ? "#E7B00F" : ""};}}> Home</NavLink>
                         <NavLink  to="about" className="text-links" style={({ isActive }) => {return {color: isActive ? "#E7B00F" : ""};}}>About</NavLink>
-                        <NavLink  to="testimonials" className="text-links" style={({ isActive }) => {return {color: isActive ? "#E7B00F" : ""};}}>Testimonials</NavLink>                          
+                        {/* <NavLink  to="testimonials" className="text-links" style={({ isActive }) => {return {color: isActive ? "#E7B00F" : ""};}}>Testimonials</NavLink>                           */}
                         {/* <NavLink  to="article"className="text-links" style={({ isActive }) => {return {color: isActive ? "#E7B00F" : ""};}}>Article</NavLink> */}
                         <NavLink  to="contact" className="text-links" style={({ isActive }) => {return {color: isActive ? "#E7B00F" : ""};}}>Contact</NavLink>
                     </nav>
@@ -43,7 +43,7 @@ class RouterNav extends Component {
                     <Route  path="about"  element={<About/>}/>
                     {/* <Route  path="article" element={<Article/>}/> */}
                     <Route  path="contact" element={<Contact/>}/>
-                    <Route  path="testimonials" element ={<Mission/>}/>
+                    {/* <Route  path="testimonials" element ={<testimonials/>}/> */}
                 </Routes>
                 <div>
                 <Footer/>
