@@ -1,3 +1,76 @@
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .home-container-bubble{
+        width: 90%;
+        opacity: 40%;
+    }
+    .home-container-text{
+        text-shadow: 4px 4px 8px black;
+    }
+    .home-container-text h3 {
+        margin-left: 1rem;
+        font-size: 2.5rem;
+        text-align: center;
+        width: 80%;
+    }
+    .bot-container{
+        width: 100%;
+        left: 1.2rem;
+    }
+    .bot-left{
+        display:none;
+    }
+    .bot-mid{
+        display:none;
+    }
+    .bot-right{
+        width: 95%;
+    }
 
+
+    .nav-bar{
+        width: 100rem;
+    }
+    .text-links{
+        font-size: 1.25rem;
+    }
+    .nav-links{
+        margin-left: 8rem;
+    }
+    .bi-email{
+        height: 2rem;
+    }
+    .bi-linkedin{
+        height: 1.5rem;
+    }
+    .social-media-container{
+        margin-top: .80rem;
+    }
+
+
+    .about-me-background{
+        margin-top: 5vh;
+        width: 90%;
+        margin-left: 1rem;
+        height: 105%;
+    }
+    .about-me-picture{
+        margin-top: 10vh;
+        border-radius: 10px;
+        width: 15rem;
+        margin-left: auto;
+        margin-right: auto;
+        position:relative;
+    }
+
+    .about-me-text{
+        margin-top: -45%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 30rem;
+        text-align: justify;
+        position: relative;
+        font-size: 1.5rem;
+    }
 }
