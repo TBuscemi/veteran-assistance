@@ -1,3 +1,74 @@
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .home-container-bubble{
+        width: 93%;
+        opacity: 40%;
+    }
+    .home-container-text{
+        text-shadow: 4px 4px 8px black;
+    }
+    .home-container-text h3 {
+        margin-left: 38rem;
+        font-size: 4.5rem;
+        text-align: center;
+        width: 50%;
+    }
+    .bot-container{
+        width: 100%;
+        left: 5.5rem;
+    }
+    .bot-left{
+        width:100%;
+        height: 30rem;
+    }
+    .bot-mid{
+        display: none;
+    }
+    .bot-right{
+        width:100%;
+        height: 30rem;
+    }
 
+
+    .nav-bar{
+        width: 100%;
+    }
+    .text-links{
+        font-size: 2rem;
+    }
+    .nav-links{
+        margin-left: 14rem;
+    }
+    .bi-email{
+        height: 3rem;
+    }
+    .bi-linkedin{
+        height: 2.5rem;
+    }
+    .social-media-container{
+        margin-top: .80rem;
+    }
+
+
+    .about-me-background{
+        margin-top: 20vh;
+        width: 90%;
+        margin-left: 1rem;
+        height: 70%;
+        position: relative;
+    }
+    .about-me-picture{
+        border-radius: 20px;
+        width: 30rem;
+        top: -10%;
+        margin-left: 3rem;
+    }
+
+    .about-me-text{
+        margin-top: -40%;
+        width: 30rem;
+        margin-left: 45%;
+        text-align: justify;
+        position: absolute;
+        font-size: 1.25rem;
+    }
 }

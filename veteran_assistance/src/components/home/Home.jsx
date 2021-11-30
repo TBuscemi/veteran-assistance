@@ -17,14 +17,14 @@ class Home extends Component {
                 <h3 >Serving those who have proudly served! </h3>
                 </div>
             </div>
-            <div className="row bot-container">
-                <div className="col-xl-4 sm-row">
+            <div className="row  bot-container">
+                <div className="col-xxl-4 col-xl-5 col-lg-5 md-row sm-row">
                     <div className="bot-left"></div>
                 </div>
-                <div className="col-xl-4 sm-row">
+                <div className="col-xxl-4 col-xl-1 col-lg-1 md-row sm-row">
                     <div className="bot-mid"></div>
                 </div>
-                <div className="col-xl-4 sm-row">
+                <div className="col-xxl-4 col-xl-5 col-lg-5 md-row sm-row">
                     <div className="bot-right"></div>
                 </div>
             </div>
