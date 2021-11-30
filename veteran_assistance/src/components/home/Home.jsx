@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Timeline } from 'react-twitter-widgets'
 import "./style/Home.css"
 
 
@@ -27,6 +28,19 @@ class Home extends Component {
                     <div className="bot-right"></div>
                 </div>
             </div>
+            <div className="twitter-container">
+                <div className="twitter-widget"><Timeline
+                    dataSource={{
+                        sourceType: 'profile',
+                        screenName: 'Coastal_Krakens'
+                    }}
+                    options={{
+                        height: '400'
+                    }}/>
+                </div>
+            </div>
+
+
         </div>
         );
     }

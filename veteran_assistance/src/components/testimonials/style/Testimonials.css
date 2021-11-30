@@ -35,6 +35,7 @@
     text-align: center;
   }
   .container img {
+    background-image: url(../../../images/guy1.jpg);
     margin: auto;
     float: none;
     display: block;
