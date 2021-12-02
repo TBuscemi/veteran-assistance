@@ -1,69 +1,42 @@
 .home-container {
-  margin-left: 5vw;
-  margin-top: 13vh;
+  margin-left: 10vw;
+  margin-top: 19vh;
+  margin-bottom: 20rem;
 }
 
 .home-container-bubble {
-  background-image: url(../../../images/flag.jpg);
-  position: absolute;
-  height: 40vh;
-  width: 90vw;
-  background-color: black;
-  opacity: 75%;
+  background-image: url(../../../images/TransBGStagger.png);
+  position: relative;
+  height: 70vh;
+  width: 80vw;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
+  border-radius: 20px;
 }
 
 .home-container-text {
   color: gold;
   position: absolute;
-  top: 6vh;
+  top: 3rem;
 }
 
 .home-container-text h3 {
-  font-size: 5rem;
+  font-size: 4rem;
   width: 40%;
-  margin-left: 55rem;
+  margin-left: 49.5rem;
   text-shadow: 9px 9px 15px black;
-}
-
-.bot-container {
-  position: relative;
-  top: 45vh;
-  left: 10vh;
-  height: 35vh;
-  width: 91vw;
-  margin-bottom: 55vh;
-}
-
-.bot-left {
-  background-image: url(../../../images/acc.jpg);
-  height: 35vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.bot-mid {
-  background-image: url(../../../images/people1.JPG);
-  height: 35vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
-.bot-right {
-  background-image: url(../../../images/people3.JPG);
-  height: 35vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.bi-email {
-  height: 3rem;
 }
 
 .bi-linkedin {
   height: 2.25rem;
+}
+
+.about-me-container {
+  height: 70vh;
+  width: 80vw;
+  background-color: black;
+  margin-left: 10vw;
+  border-radius: 20px;
 }
 /*# sourceMappingURL=Home.css.map */

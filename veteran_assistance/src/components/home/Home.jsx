@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Timeline } from 'react-twitter-widgets'
 import "./style/Home.css"
 
 
@@ -14,33 +13,15 @@ class Home extends Component {
             <div className ="home-container">
                 <div className="home-container-bubble"></div>
                 <div className="home-container-text">
-                <h3 >Serving those who have proudly served! </h3>
+                <h3 >Fair Winds Resources! </h3>
                 </div>
             </div>
-            <div className="row  bot-container">
-                <div className="col-xxl-4 col-xl-5 col-lg-5 md-row sm-row">
-                    <div className="bot-left"></div>
-                </div>
-                <div className="col-xxl-4 col-xl-1 col-lg-1 md-row sm-row">
-                    <div className="bot-mid"></div>
-                </div>
-                <div className="col-xxl-4 col-xl-5 col-lg-5 md-row sm-row">
-                    <div className="bot-right"></div>
+            <div className="about-me-container">
+                <div>
+                    <h3 className="about-title">About</h3>
+                    <p classname="about-P">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet magnam hic ut, debitis modi unde eos soluta nulla temporibus consequuntur necessitatibus inventore error iure nobis quos voluptatem ipsam libero dignissimos?</p>
                 </div>
             </div>
-            <div className="twitter-container">
-                <div className="twitter-widget"><Timeline
-                    dataSource={{
-                        sourceType: 'profile',
-                        screenName: 'Coastal_Krakens'
-                    }}
-                    options={{
-                        height: '400'
-                    }}/>
-                </div>
-            </div>
-
-
         </div>
         );
     }
