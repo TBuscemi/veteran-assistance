@@ -44,7 +44,7 @@ render() {
                     <label htmlFor=""><h5>Military Job</h5></label>
                     <input className="inputs" size="48" type="MOS/Rating" name="MOS/Rating" placeholder="MOS/Rating/Specialty Code"/><br/>
                    <div className="terms"><h6> Fair Winds Resources does not discriminate on the basis of age, race, creed, color, national origin, sexual orientation, gender identity or expression, military status, sex, marital status, or disability.</h6></div>
-                   <div className="terms-check-box"> <input type="checkbox" required /> I Understand the above terms</div><br/>
+                   <div className="terms-check-box"> <input type="checkbox" required /> <h6>I Understand the above terms</h6></div><br/>
                     <button type="submit">Submit</button>
                 </form>
             </div>
