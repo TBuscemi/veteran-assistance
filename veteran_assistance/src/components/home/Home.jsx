@@ -13,7 +13,6 @@ class Home extends Component {
             <div className ="home-container">
                 <div className="home-container-bubble"></div>
                 <div className="home-container-text">
-                <h3 >Fair Winds Resources! </h3>
                 </div>
             </div>
             <div className="about-me-container">

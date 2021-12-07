@@ -1,11 +1,62 @@
 .form-container{
     position: relative;
-    background-color: rgb(124, 124, 124);
+    background-color: lightblue;
     height: 50rem;
     width: 50rem;
     margin-top: 10rem;
     color: white;
-    padding: 5rem;
-    border-radius: 10px;
-    margin-left: 50rem;
+    padding: 2rem;
+    border-radius: 0px;
+    margin-left: 39rem;
+    color: black;
+    margin-bottom: 5rem ;
 }
+
+.title-contact{
+    margin-left: 12rem;
+}
+.inputs{
+    margin-top: 1rem;
+    position: relative;
+    margin-left: 1rem;
+}
+
+
+.military{
+    margin-top: 2rem
+}
+
+
+h4{ 
+    margin-left: 13rem;
+}
+
+label{
+    display: inline-block;
+    padding: 3px 6px;
+    text-align: right;
+    width: 10rem;
+}
+
+
+.terms{
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+
+
+.terms-check-box{
+    margin-left: 3rem;
+}
+
+
+input[type=checkbox] {
+    transform: scale(1.5);
+}
+
+
+button{
+    margin-left: 3rem;
+}
+
+

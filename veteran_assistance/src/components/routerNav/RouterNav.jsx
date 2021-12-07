@@ -11,11 +11,11 @@ class RouterNav extends Component {
         return(
             <div>
                 <div className = "nav-bar">
-                <div className = "logo"></div>
+                <div className = "logo"><h3 >Fair Winds Resources! </h3></div>
                 <div className="nav-links-container">
                     <nav class = "nav-links"> 
-                        <NavLink  to="/" className="text-links ext-space" style={({ isActive }) => {return {color: isActive ? "#E7B00F" : ""};}}> Home</NavLink>
-                        <NavLink  to="gets-started" className="text-links" style={({ isActive }) => {return {color: isActive ? "#E7B00F" : ""};}}>Get Started</NavLink>
+                        <NavLink  to="/" className="text-links ext-space" style={({ isActive }) => {return {color: isActive ? "red" : ""};}}> Home</NavLink>
+                        <NavLink  to="gets-started" className="text-links" style={({ isActive }) => {return {color: isActive ? "red" : ""};}}>Get Started</NavLink>
                     </nav>
                 </div>
                     <div className="social-media-container">

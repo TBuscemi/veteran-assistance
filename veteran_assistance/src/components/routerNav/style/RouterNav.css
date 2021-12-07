@@ -1,5 +1,5 @@
 .nav-bar {
-  background-color: black;
+  background-color: #000036;
   position: fixed;
   height: 8vh;
   width: 100vw;
@@ -21,11 +21,12 @@
 }
 
 .logo {
+  margin-top: .3rem;
   position: absolute;
   height: 8vh;
   width: 13vw;
   left: 5vw;
-  background-image: url(../../../images/PLACE.jpeg);
+  color: lightblue;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -36,7 +37,7 @@
 }
 
 .text-links:hover {
-  color: #E7B00F !important;
+  color: lightblue;
 }
 
 .bi {
@@ -44,7 +45,7 @@
 }
 
 .bi:hover {
-  fill: #E7B00F !important;
+  fill: lightblue;
 }
 
 .social-media-container {
