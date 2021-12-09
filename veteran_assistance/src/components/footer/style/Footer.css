@@ -1,5 +1,20 @@
 footer {
-  height: 15vh;
-  background-color: red;
+  height: 20vh;
+  background-color: #000036;
+}
+
+.safe-helpline {
+  margin-left: 35rem;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.veterans-crisis {
+  margin-top: 2.5rem;
+  display: inline-block;
+  margin-left: 5rem;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 /*# sourceMappingURL=Footer.css.map */

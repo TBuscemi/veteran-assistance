@@ -21,18 +21,19 @@
 }
 
 .logo {
-  margin-top: .3rem;
+  margin-top: rem;
   position: absolute;
   height: 8vh;
   width: 13vw;
-  left: 5vw;
+  left: 2vw;
   color: lightblue;
   background-repeat: no-repeat;
   background-size: contain;
+  font-size: 3rem;
 }
 
 .nav-links {
-  margin-left: 17vw;
+  margin-left: 12vw;
   margin-top: 2vh;
 }
 

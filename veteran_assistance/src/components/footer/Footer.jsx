@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import "./style/Footer.css"
+import "./style/Footer.css";
+import safe from "../../images/safe.jpg";
+import crisis from "../../images/crisis.jpg";
 
 
 class Footer extends Component {
@@ -10,7 +12,18 @@ class Footer extends Component {
     render() { 
         return ( 
             <footer>
-                
+                <div className="Foot-links">
+                    <div className="safe-helpline" >
+                        <a href="https://www.safehelpline.org/">
+                            <img src={safe} height="120px" />
+                        </a>
+                    </div>
+                    <div className="veterans-crisis" >
+                        <a href="https://www.veteranscrisisline.net/" >
+                            <img src={crisis} height="116px"/>
+                        </a>
+                    </div> 
+                </div>
             </footer>
 
          );

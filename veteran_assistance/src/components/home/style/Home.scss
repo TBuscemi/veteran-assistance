@@ -1,7 +1,7 @@
 .home-container{
     margin-left: 10vw;
-    margin-top: 19vh ;
-    margin-bottom: 20rem;
+    margin-top: 17vh ;
+    margin-bottom: 17rem;
 }
 // background-image: url(../home/woodFloorDarkOpacity.png);
 
@@ -34,12 +34,29 @@
     height: 2.25rem;
 }
 
+
+.about-me-picture{
+    position:absolute;
+    background-image: url(../../../images/15027718_10210185771413577_4029136754926803570_n.jpg);
+    height: 25.3rem;
+    width: 25rem;
+    margin-left: 25.1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+
 .about-me-container{
-    height: 70vh;
-    width: 80vw;
-    background-color: black;
-    margin-left: 10vw;
-    border-radius: 20px;
+    height: 40vh;
+    width: 42vw;
+    background-color: lightblue;
+    margin-left: 37vw;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 17rem;
+    padding: 1rem;
 }
 
 

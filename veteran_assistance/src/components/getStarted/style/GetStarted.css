@@ -3,7 +3,7 @@
   background-color: lightblue;
   height: 52rem;
   width: 50rem;
-  margin-top: 6.5rem;
+  margin-top: 8rem;
   color: white;
   padding: 2rem;
   border-radius: 20px;
@@ -13,13 +13,13 @@
 }
 
 .title-contact {
-  margin-left: 12rem;
+  margin-left: 15rem;
 }
 
 .inputs {
   margin-top: 1rem;
   position: relative;
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 .military {
@@ -31,6 +31,7 @@ h4 {
 }
 
 label {
+  margin-left: 2rem;
   display: inline-block;
   padding: 3px 6px;
   text-align: right;
@@ -38,12 +39,18 @@ label {
 }
 
 .terms {
+  width: 35rem;
   margin-top: 1rem;
-  margin-left: 3rem;
+  margin-left: 5rem;
+  display: inline-block;
 }
 
 .terms-check-box {
-  margin-left: 3rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-left: 5.2rem;
+  margin-top: .5rem;
 }
 
 input[type=checkbox] {
@@ -52,6 +59,11 @@ input[type=checkbox] {
 }
 
 button {
-  margin-left: 3rem;
+  margin-left: 19.9rem !important;
+  margin-top: 1rem !important;
+}
+
+.check-box-words {
+  margin-left: 1rem;
 }
 /*# sourceMappingURL=GetStarted.css.map */
