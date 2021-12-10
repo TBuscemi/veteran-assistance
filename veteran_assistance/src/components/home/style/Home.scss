@@ -34,29 +34,34 @@
     height: 2.25rem;
 }
 
-
+.about-wrapper{
+    height: 25.3rem;
+    width: 75rem;
+    margin-bottom: 10rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: lightblue;
+    border-radius: 20px;
+    & h3{
+        width: 20rem;
+        padding: 1rem;
+        margin-left: 35%;
+    }
+    & p{
+        width: 40rem;
+        margin-left: 28%;
+    }
+} 
 .about-me-picture{
-    position:absolute;
     background-image: url(../../../images/15027718_10210185771413577_4029136754926803570_n.jpg);
     height: 25.3rem;
-    width: 25rem;
-    margin-left: 25.1rem;
+    width: 19rem;
     background-repeat: no-repeat;
     background-size: contain;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
-
+    position: absolute;
 }
 
-.about-me-container{
-    height: 25.4rem;
-    width: 42vw;
-    background-color: lightblue;
-    margin-left: 36.8vw;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-    margin-bottom: 17rem;
-    padding: 1rem;
-}
 
 

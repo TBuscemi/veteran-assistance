@@ -10,6 +10,8 @@
   margin-left: 39rem;
   color: black;
   margin-bottom: 5rem;
+  -webkit-box-shadow: 8px 8px 12px #05054b;
+          box-shadow: 8px 8px 12px #05054b;
 }
 
 .title-contact {
