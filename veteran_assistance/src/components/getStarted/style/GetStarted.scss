@@ -4,7 +4,6 @@
     height: 52rem;
     width: 50rem;
     margin-top: 8rem;
-    color: white;
     padding: 2rem;
     border-radius: 20px;
     margin-left: 39rem;
@@ -41,6 +40,18 @@ label{
 }
 
 
+.choose-file{
+    cursor: pointer; 
+}
+
+.branch{
+    cursor: pointer;
+}
+
+.choose-file{
+    width: 13rem;
+}
+
 .terms{
     width: 35rem;
     margin-top: 1rem;
@@ -58,12 +69,20 @@ label{
 
 input[type=checkbox] {
     transform: scale(1.5);
+    cursor: pointer;
 }
 
 
 button{
-    margin-left: 19.9rem !important;
+    margin-left: 18rem !important;
     margin-top: 1rem !important;
+    width: 8rem;
+    height: 2.5rem;
+}
+
+.button{
+    box-shadow: 5px 5px 10px rgb(16, 16, 65);
+    border-radius: 5px;
 }
 
 .check-box-words{

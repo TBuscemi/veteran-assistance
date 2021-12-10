@@ -67,11 +67,11 @@ render() {
             <label htmlFor=""><h5>LinkedIn*</h5></label>
             <input className="inputs" size="50" type="text" name="linked" value={this.state.linked} onChange={this.handleChange} placeholder=" Your LinkedIn"required/><br/>
             <label htmlFor=""><h5>Resume</h5></label>
-            <input className="inputs" type="file" name="attachment" accept="pdf, pdf"/>
+            <input className="inputs choose-file" type="file" name="attachment" accept="pdf, pdf"/>
             <input type="hidden" name="_next" value="http://localhost:3000/gets-started"/>
             <div className="military" for="Military Service" > <h4>Military Service If Applicable</h4></div>
             <label htmlFor=""><h5>Branch</h5></label>
-            <select className="inputs" id="Military Service" name="Military Service" required>
+            <select className="inputs branch" id="Military Service" name="Military Service" required>
               <option value="None">None</option>
               <option value="Navy">Navy</option>
               <option value="Air Force">Air Force</option>
@@ -88,7 +88,7 @@ render() {
             <input className="inputs" size="50" type="MOS/Rating" name="MOS/Rating" placeholder="MOS/Rating/Specialty Code"/><br/>
             <div className="terms"><h6> Fair Winds Resources does not discriminate on the basis of age, race, creed, color, national origin, sexual orientation, gender identity or expression, military status, sex, marital status, or disability.</h6></div>
             <span className="terms-check-box"> <input type="checkbox" required /> <h6 className="check-box-words">I Understand the above terms</h6></span><br/>
-            {this.state.errors.error ? <button type="submit" disabled>Submit</button> : <button type="submit">Submit</button> }
+            {this.state.errors.error ? <button className="button" type="submit" disabled>Submit</button> : <button className="button" type="submit">Submit</button> }
           </form>
         </div>
       </div>
