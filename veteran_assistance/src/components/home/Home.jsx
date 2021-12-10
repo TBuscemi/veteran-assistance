@@ -12,15 +12,12 @@ class Home extends Component {
         <div className="main-wrapper">
             <div className ="home-container">
                 <div className="home-container-bubble"></div>
-                <div className="home-container-text">
-                </div>
+                <div className="home-container-text"></div>
             </div>
-            <div className="about-me-picture"></div>
-            <div className="about-me-container">
-                <div className="About-me-text">
-                    <h3 className="about-title">About</h3>
-                    <p classname="about-P">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet magnam hic ut, debitis modi unde eos soluta nulla temporibus consequuntur necessitatibus inventore error iure nobis quos voluptatem ipsam libero dignissimos?</p>
-                </div>
+            <div className="about-wrapper">
+                <div className="about-me-picture"></div>
+                <h3 className="about-title">About</h3>
+                <p classname="about-P">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet magnam hic ut, debitis modi unde eos soluta nulla temporibus consequuntur necessitatibus inventore error iure nobis quos voluptatem ipsam libero dignissimos?</p> 
             </div>
         </div>
         );
