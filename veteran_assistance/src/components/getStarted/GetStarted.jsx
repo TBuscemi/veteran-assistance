@@ -6,8 +6,49 @@ import 'bootstrap'
 class GetStarted extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {  }
+    this.state = { 
+      linked: '',
+      phone: 0,
+      errors: {
+        linkedIn: null,
+        phone: null,
+      }
+     }
 }
+
+handleChange=(e)=>{
+  let errors = this.state.errors;
+  this.setState({
+    [e.target.name]:e.target.value
+  })
+
+  if(e.target.name === 'linked' && e.target.value.length <10){
+      errors.error = false
+      errors.linkedIn = ''
+  }
+  if(e.target.name === 'linked' && e.target.value.length >9){
+    errors.linkedIn = e.target.value && e.target.value.includes('http') && e.target.value.includes('.com') ? null : "You must include a valid URL"
+    if(errors.linkedIn === null){
+      errors.error = false
+      errors.linkedIn = ''
+    }
+    else{
+      errors.error = true
+    }
+  }
+
+  if(e.target.name === 'phone'){
+    errors.phone = e.target.value && e.target.value.length === 10 ? null : "Please enter a 10 digit phone number"
+    if(errors.phone === null){
+      errors.error = false
+      errors.phone = ''
+    }
+    else{
+      errors.error = true
+    }
+  }
+}
+
 render() { 
     return ( 
         <div className="main-wrapper">
@@ -15,14 +56,16 @@ render() {
           <h1 className="title-contact">Contract Form</h1>
           <form className="form" method="POST" action="https://formsubmit.co/polarbear494@gmail.com" enctype="multipart/form-data">
             <label><h5>Name*</h5></label>
-            <input className="inputs" type="First Name" name="First Name" placeholder="First Name" required/>
-            <input className="inputs" type="Last Name" name="Last Name" placeholder="Last Name" required /><br/>
+            <input className="inputs" type="text" name="First Name" placeholder="First Name" required/>
+            <input className="inputs" type="text" name="Last Name" placeholder="Last Name" required /><br/>
             <label htmlFor=""><h5>Phone*</h5></label>
-            <input className="inputs"type="Phone Number" name="Phone Number" placeholder="Phone Number " required/><br/>
+            <input className="inputs" type="number" pattern="[0-9]" name="phone" value={this.state.number} onChange={this.handleChange} placeholder="Phone Number " required/><br/>
+            {this.state.errors.phone ? <p className="error">{this.state.errors.phone}</p>:null}
             <label htmlFor=""><h5>Email*</h5></label>
             <input className="inputs" size="50" type="Email" name="Email" placeholder="Your Email" required/><br/>
+            {this.state.errors.linkedIn ? <p className="error">{this.state.errors.linkedIn}</p> : null}
             <label htmlFor=""><h5>LinkedIn*</h5></label>
-            <input className="inputs" size="50" type="LinkedIn" name="LinkedIn" placeholder=" Your LinkedIn"required/><br/>
+            <input className="inputs" size="50" type="text" name="linked" value={this.state.linked} onChange={this.handleChange} placeholder=" Your LinkedIn"required/><br/>
             <label htmlFor=""><h5>Resume</h5></label>
             <input className="inputs" type="file" name="attachment" accept="pdf, pdf"/>
             <input type="hidden" name="_next" value="http://localhost:3000/gets-started"/>
@@ -45,7 +88,7 @@ render() {
             <input className="inputs" size="50" type="MOS/Rating" name="MOS/Rating" placeholder="MOS/Rating/Specialty Code"/><br/>
             <div className="terms"><h6> Fair Winds Resources does not discriminate on the basis of age, race, creed, color, national origin, sexual orientation, gender identity or expression, military status, sex, marital status, or disability.</h6></div>
             <span className="terms-check-box"> <input type="checkbox" required /> <h6 className="check-box-words">I Understand the above terms</h6></span><br/>
-            <button type="submit">Submit</button>
+            {this.state.errors.error ? <button type="submit" disabled>Submit</button> : <button type="submit">Submit</button> }
           </form>
         </div>
       </div>
