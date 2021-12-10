@@ -26,9 +26,10 @@
     height: 8vh;
     width: 13vw;
     left: 2vw;
-    color: lightblue;
-    background-repeat: no-repeat;
-    background-size: contain;
+    // color: lightblue;
+    background: -webkit-linear-gradient(45deg, red,white,blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 3rem;
 }
 

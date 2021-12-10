@@ -14,8 +14,8 @@ class RouterNav extends Component {
                 <div className = "logo">Fair Winds</div>
                 <div className="nav-links-container">
                     <nav class = "nav-links"> 
-                        <NavLink  to="/" className="text-links ext-space" style={({ isActive }) => {return {color: isActive ? "red" : ""};}}> Home</NavLink>
-                        <NavLink  to="gets-started" className="text-links" style={({ isActive }) => {return {color: isActive ? "red" : ""};}}>Get Started</NavLink>
+                        <NavLink  to="/" className="text-links ext-space" style={({ isActive }) => {return {color: isActive ? "lightblue" : ""};}}> Home</NavLink>
+                        <NavLink  to="gets-started" className="text-links" style={({ isActive }) => {return {color: isActive ? "lightblue" : ""};}}>Get Started</NavLink>
                     </nav>
                 </div>
                     <div className="social-media-container">
