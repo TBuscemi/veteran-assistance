@@ -1,76 +1,159 @@
-@media only screen and (max-width: 575px) {
-    .home-container-bubble{
-        width: 90%;
-        opacity: 40%;
+@media only screen and (max-width: 360px) and (max-height:640px) {
+    body{
+        background-size:cover;
+        height: 100rem;
     }
-    .home-container-text{
-        text-shadow: 4px 4px 8px black;
+    .main-wrapper{
+        height: 89rem;
     }
-    .home-container-text h3 {
-        margin-left: 1rem;
-        font-size: 2.5rem;
-        text-align: center;
-        width: 80%;
-    }
-    .bot-container{
-        width: 100%;
-        left: 1.2rem;
-    }
-    .bot-left{
-        display:none;
-    }
-    .bot-mid{
-        display:none;
-    }
-    .bot-right{
-        width: 95%;
-    }
-
-
     .nav-bar{
-        width: 100rem;
+        width: 100%;
+        height: 6rem;
+    }
+    .nav-links-container{
+        margin-left: 25rem;
     }
     .text-links{
-        font-size: .75rem;
+        font-size: 2rem;
+        margin-left: 2rem;
     }
     .nav-links{
-        margin-left: 5rem;
+        margin-top:1.5rem;
     }
-    .bi-email{
-        height: 1rem;
-    }
-    .bi-linkedin{
-        height: .80rem;
-    }
-    .social-media-container{
-        margin-top: .80rem;
-    }
-
-
-    .about-me-background{
-        margin-top: 5vh;
-        width: 90%;
-        margin-left: 1rem;
-        height: 115%;
-    }
-    .about-me-picture{
-        margin-top: 10vh;
-        border-radius: 5px;
-        width: 10rem;
-        margin-left: auto;
-        margin-right: auto;
-        position:relative;
-    }
-
-    .about-me-text{
-        margin-top: -40%;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
+    .logo{
         width: 20rem;
-        text-align: justify;
-        position: relative;
-        font-size: 1rem;
+        height: 10rem;
+        padding: 1rem;
+    }
+    .home-container-bubble{
+        width: 60rem;
+    }
+    .about-wrapper{
+        width: 53rem;
+        margin-bottom: 20rem;
+    }
+    .about-wrapper h3{
+        font-size: 2rem;
+        margin-left: 40%;
+    }
+    .about-wrapper p{
+        width: 30rem;
+        margin-left: 40%;
+        font-size: 1.5rem;
+    }
+    footer{
+        width: 300%;
+        height: 15rem;
+        margin-top:10rem;
+    }
+    .safe-helpline{
+        margin-left: 10rem;
+    }
+}
+@media only screen and (max-width: 360px) and (max-height:740px) {
+    body{
+        background-size:cover;
+        height: 130rem;
+    }
+    .main-wrapper{
+        height: 108rem;
+    }
+    .nav-bar{
+        width: 100%;
+        height: 6rem;
+    }
+    .nav-links-container{
+        margin-left: 25rem;
+    }
+    .text-links{
+        font-size: 2rem;
+        margin-left: 2rem;
+    }
+    .nav-links{
+        margin-top:1.5rem;
+    }
+    .logo{
+        width: 20rem;
+        height: 10rem;
+        padding: 1rem;
+    }
+    .home-container-bubble{
+        width: 60rem;
+    }
+    .about-wrapper{
+        width: 58rem;
+        margin-top: 30rem;
+        margin-bottom: 20rem;
+    }
+    .about-wrapper h3{
+        font-size: 2rem;
+        margin-left: 40%;
+    }
+    .about-wrapper p{
+        width: 30rem;
+        margin-left: 40%;
+        font-size: 1.5rem;
+    }
+    footer{
+        width: 300%;
+        height: 15rem;
+        margin-top:10rem;
+    }
+    .safe-helpline{
+        margin-left: 10rem;
+    }
+}
+
+@media only screen and (max-width: 400px) and (max-height:800px) {
+    body{
+        background-size:cover;
+        height: 130rem;
+    }
+    .main-wrapper{
+        height: 118rem;
+    }
+    .nav-bar{
+        width: 100%;
+        height: 6rem;
+    }
+    .nav-links-container{
+        margin-left: 25rem;
+    }
+    .text-links{
+        font-size: 2rem;
+        margin-left: 2rem;
+    }
+    .nav-links{
+        margin-top:1.5rem;
+    }
+    .logo{
+        width: 20rem;
+        height: 10rem;
+        padding: 1rem;
+    }
+    .home-container-bubble{
+        width: 60rem;
+    }
+    .about-wrapper{
+        width: 64rem;
+        margin-top: 30rem;
+        margin-bottom: 20rem;
+    }
+    .about-wrapper h3{
+        font-size: 2rem;
+        margin-left: 40%;
+    }
+    .about-wrapper p{
+        width: 30rem;
+        margin-left: 40%;
+        font-size: 1.5rem;
+    }
+    footer{
+        width: 300%;
+        height: 15rem;
+        margin-top:10rem;
+    }
+    .safe-helpline{
+        margin-left: 10rem;
     }
 }
