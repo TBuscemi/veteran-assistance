@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7642c5a5.chunk.css",
+    "main.js": "/static/js/main.76d07650.chunk.js",
+    "main.js.map": "/static/js/main.76d07650.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.224e9278.js",
+    "runtime-main.js.map": "/static/js/runtime-main.224e9278.js.map",
+    "static/css/2.383c0125.chunk.css": "/static/css/2.383c0125.chunk.css",
+    "static/js/2.1c4e2bfe.chunk.js": "/static/js/2.1c4e2bfe.chunk.js",
+    "static/js/2.1c4e2bfe.chunk.js.map": "/static/js/2.1c4e2bfe.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.7642c5a5.chunk.css.map": "/static/css/main.7642c5a5.chunk.css.map",
+    "static/js/2.1c4e2bfe.chunk.js.LICENSE.txt": "/static/js/2.1c4e2bfe.chunk.js.LICENSE.txt",
+    "static/media/Home.css": "/static/media/TransBGStagger.1bfed3b6.png",
+    "static/media/crisis.c32e9730.jpg": "/static/media/crisis.c32e9730.jpg",
+    "static/media/App.css": "/static/media/pawel-nolbert-xe-ss5Tg2mo-unsplash.316ed84c.jpg",
+    "static/media/safe.56593238.jpg": "/static/media/safe.56593238.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.224e9278.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.1c4e2bfe.chunk.js",
+    "static/css/main.7642c5a5.chunk.css",
+    "static/js/main.76d07650.chunk.js"
+  ]
+}
