@@ -53,7 +53,7 @@ render() {
     return ( 
         <div className="main-wrapper">
           <div class="form-container">
-          <h1 className="title-contact">Contract Form</h1>
+          <h1 className="title-contact">Contact Form</h1>
           <form className="form" method="POST" action="https://formsubmit.co/polarbear494@gmail.com" enctype="multipart/form-data">
             <label><h5>Name*</h5></label>
             <input className="inputs" type="text" name="First Name" placeholder="First Name" required/>
