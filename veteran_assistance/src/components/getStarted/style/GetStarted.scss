@@ -1,19 +1,21 @@
 .form-wrapper{
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
-    margin-top: 20rem;
+    margin-top: 3rem;
 }
 
 
 .form-container{
     display: flex;
     flex-direction: column;
+    text-align: center;
     background-color: lightblue;
-    min-height: 1600px;
-    min-width: 1200px;
-    height: 52rem;
-    width: 50rem;
+    min-height: 0px;
+    min-width: 0px;
+    height: 35rem;
+    width: 20rem;
     margin-top: 8rem;
     padding: 2rem;
     border-radius: 20px;
@@ -21,21 +23,20 @@
     margin-bottom: 30rem ;
     box-shadow: 8px 8px 12px rgb(5, 5, 75);
     & h5{
-        font-size: calc(50px + .5vw);
-        text-align: center;
-        width: 20rem;
+        // font-size: calc(50px + .5vw);
+        width: 0rem;
         padding: 1rem;
     }
     & h6{
-        font-size: calc(23px + .5vw);
-        width: 60rem;
+        // font-size: calc(23px + .5vw);
+        // width: 60rem;
     }
     & h4{
-        font-size: calc(30px + .5vw);
-        width: 60rem;
+        // font-size: calc(30px + .5vw);
+        // width: 60rem;
     }
     & h1{
-        font-size: calc(50px + .5vw);
+        // font-size: calc(50px + .5vw);
     }
 
 }
@@ -45,19 +46,19 @@
     text-align: center;
 }
 .inputs{ 
-    min-height: 50px;
-    min-width:260px;
+    min-height: 0px;
+    min-width:0px;
     position: relative;
-    margin-left: 10rem;
-    font-size: calc(19px + .5vw);
+    margin-left: 9rem;
+    // font-size: calc(19px + .5vw);
 }
 
 
 .last{
     margin-left: 4rem;
-    min-height: 50px;
-    min-width:260px;
-    font-size: calc(19px + .5vw);
+    // min-height: 50px;
+    // min-width:260px;
+    // font-size: calc(19px + .5vw);
 }
 
 .military{
@@ -66,11 +67,8 @@
 }
 
 label{
-    margin-left: 2rem;
-    display: inline-block;
-    padding: 3px 6px;
-    text-align: right;
-    width: 10rem;
+    display: flex;
+    
 }
 
 
@@ -83,7 +81,7 @@ label{
 }
 
 .choose-file{
-    min-width: 400px;
+    // min-width: 400px;
     width: 13rem;
 }
 
@@ -120,11 +118,11 @@ input[type=checkbox] {
 button{
     margin-left: 25rem !important;
     margin-top: 1rem !important;
-    min-width: 200px;
-    min-height: 50px;
+    min-width: 0px;
+    min-height: 0px;
     width: 8rem;
     height: 2.5rem;
-    font-size: calc(20px + .5vw) !important;
+    // font-size: calc(20px + .5vw) !important;
     
 }
 
