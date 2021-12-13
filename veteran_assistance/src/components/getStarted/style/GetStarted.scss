@@ -10,12 +10,8 @@
     display: flex;
     flex-direction: column;
     align-items:left;
-    text-align: cen;
     background-color: lightblue;
-    min-height: 0px;
-    min-width: 0px;
-    height: 100rem;
-    width: 20rem;
+    width: 40rem;
     margin-top: 8rem;
     padding: 2rem;
     border-radius: 20px;
@@ -46,9 +42,9 @@
     text-align: center;
 }
 .inputs{ 
-    margin-left: 2.3rem;
+    margin-left: 5rem;
     justify-content: center;
-    display: flex;
+    display: inline-flex;
     min-height: 0px;
     min-width:0px;
     // font-size: calc(19px + .5vw);
@@ -56,8 +52,8 @@
 
 
 .last{
-       margin-left: 2.3rem;
-    display: flex;
+    margin-left: 2rem;
+    display: inline-flex;
     // min-height: 50px;
     // min-width:260px;
     // font-size: calc(19px + .5vw);
@@ -71,7 +67,7 @@
 label{
     
     display: flex;
-    margin-left: 5rem;
+   
     
 }
 
@@ -99,17 +95,15 @@ label{
 }
 
 .terms{
-    width: 17rem;
     margin-top: 1rem;
-
-    display: inline-block;
+    display: flex;
 }
 
 
 .terms-check-box{
-    
     display: inline-flex;
     margin-top: .5rem;
+    margin-left: 10rem;
 }
 
 
@@ -121,7 +115,7 @@ input[type=checkbox] {
 
 
 button{
-    margin-left: 4rem !important;
+    margin-left: 14rem !important;
     margin-top: 1rem !important;
     min-width: 0px;
     min-height: 0px;

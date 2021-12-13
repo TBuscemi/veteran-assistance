@@ -23,12 +23,8 @@
   -webkit-box-align: left;
       -ms-flex-align: left;
           align-items: left;
-  text-align: cen;
   background-color: lightblue;
-  min-height: 0px;
-  min-width: 0px;
-  height: 100rem;
-  width: 20rem;
+  width: 40rem;
   margin-top: 8rem;
   padding: 2rem;
   border-radius: 20px;
@@ -48,22 +44,22 @@
 }
 
 .inputs {
-  margin-left: 2.3rem;
+  margin-left: 5rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   min-height: 0px;
   min-width: 0px;
 }
 
 .last {
-  margin-left: 2.3rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  margin-left: 2rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
 .military {
@@ -75,7 +71,6 @@ label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 5rem;
 }
 
 .choose-file {
@@ -107,9 +102,10 @@ label {
 }
 
 .terms {
-  width: 17rem;
   margin-top: 1rem;
-  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .terms-check-box {
@@ -117,6 +113,7 @@ label {
   display: -ms-inline-flexbox;
   display: inline-flex;
   margin-top: .5rem;
+  margin-left: 10rem;
 }
 
 input[type=checkbox] {
@@ -127,7 +124,7 @@ input[type=checkbox] {
 }
 
 button {
-  margin-left: 4rem !important;
+  margin-left: 14rem !important;
   margin-top: 1rem !important;
   min-width: 0px;
   min-height: 0px;
