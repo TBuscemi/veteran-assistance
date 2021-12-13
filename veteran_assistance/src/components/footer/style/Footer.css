@@ -1,4 +1,4 @@
-.Foot-links {
+.foot-links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20,6 +20,11 @@
           box-shadow: 0 50vh 0 50vh #000036;
 }
 
+.footer-imgs {
+  height: 13rem;
+  border-radius: 15px;
+}
+
 .safe-helpline {
   background-repeat: no-repeat;
   background-size: contain;
@@ -28,5 +33,14 @@
 .veterans-crisis {
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+@media only screen and (min-width: 2800px) and (max-width: 4000px) {
+  .foot-links {
+    max-height: calc(10rem + .5rem);
+  }
+  .footer-imgs {
+    height: 18rem;
+  }
 }
 /*# sourceMappingURL=Footer.css.map */

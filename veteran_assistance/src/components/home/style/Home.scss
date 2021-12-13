@@ -2,15 +2,13 @@
     display: flex;
     justify-content: center;
     margin-bottom: 25rem;
-    
 }
-
 
 .home-container-bubble{
     display: flex;
     justify-content: center;
     background-image: url(../../../images/TransBGStagger.png);
-    height: 70vh;
+    height: 60vh;
     width: 80vw;
     background-repeat: no-repeat;
     background-size: contain;
@@ -21,7 +19,6 @@
     display: flex;            
     align-items: center;      
     justify-content: center;  
-
 }
 
 .about-wrapper{
@@ -29,9 +26,9 @@
     align-items: center;      
     justify-content: center;  
     flex-direction:column;
-    height: 25rem;
+    height: calc(1200px + 3rem);
     min-width: 1200px;
-    min-height: 1200px;
+    // min-height: 1300px;
     margin-bottom: 10rem;
     max-width: 60%;
     background-color: lightblue;
@@ -66,5 +63,38 @@
     border-radius: 10px;
 }
 
+@media only screen and (min-width: 2800px) and (max-width: 4000px){
+    .home-container-bubble{
+        margin-top: calc(20rem + 1rem);
+        height: 40vh;
+    }
+    
+    .about-cont{
+        
+    }
+    
+    .about-wrapper{
+        min-width: 2800px;
+        height: calc(800px + 2rem);
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-bottom: 25rem;
+        & h3{
+            font-size: calc(6rem + .5rem);
+            padding-left: calc(20rem + .5rem);
+        }
+        & p{
+            padding-top: 10rem;
+            font-size: calc(4rem + .25rem);
+            width: calc(80rem + 2rem);
+        }
+    } 
+       
+    .about-me-picture{
+        justify-content: left;
+        align-items: left;
+    }
+}
 
 

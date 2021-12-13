@@ -15,14 +15,14 @@
 
 .text-links{
     font-size: calc(70px + .5vw);
-    margin-right: 3vw;
+    margin-right: 2.5rem;
     color: #fdfdfd;
     text-decoration: none;
 }
 
 .logo{
     display: flex;
-    margin-left: 2r;
+    margin-left: 2rem;
     justify-content: start;
     width: 50%;
     background: -webkit-linear-gradient(45deg, red,white,blue);
@@ -37,5 +37,12 @@
     color: lightblue;
 }
 
-
-
+@media only screen and (min-width: 2800px) and (max-width: 4000px){
+    .text-links{
+        font-size: 6rem;
+        margin-left: calc(2rem + .25em);
+    }
+    .logo{
+        margin-left: calc(3rem + 1rem);
+    }
+}

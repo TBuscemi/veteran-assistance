@@ -19,7 +19,7 @@ class Home extends Component {
                     <div className="about-wrapper">
                         <div className="about-me-picture"> </div>
                         <h3 className="about-title">About</h3>
-                        <p className="about-P">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet magnam hic ut, debitis modi unde eos soluta nulla temporibus consequuntur necessitatibus inventore error iure nobis quos voluptatem ipsam libero dignissimos?</p> 
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet magnam hic ut, debitis modi unde eos soluta nulla temporibus consequuntur necessitatibus inventore error iure nobis quos voluptatem ipsam libero dignissimos?</p> 
                     </div>
                 </div>
             </div>
