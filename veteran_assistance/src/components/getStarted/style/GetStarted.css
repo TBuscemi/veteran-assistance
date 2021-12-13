@@ -5,11 +5,14 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: 20rem;
+  margin-top: 3rem;
 }
 
 .form-container {
@@ -20,11 +23,12 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  text-align: center;
   background-color: lightblue;
-  min-height: 1600px;
-  min-width: 1200px;
-  height: 52rem;
-  width: 50rem;
+  min-height: 0px;
+  min-width: 0px;
+  height: 35rem;
+  width: 20rem;
   margin-top: 8rem;
   padding: 2rem;
   border-radius: 20px;
@@ -35,24 +39,8 @@
 }
 
 .form-container h5 {
-  font-size: calc(50px + .5vw);
-  text-align: center;
-  width: 20rem;
+  width: 0rem;
   padding: 1rem;
-}
-
-.form-container h6 {
-  font-size: calc(23px + .5vw);
-  width: 60rem;
-}
-
-.form-container h4 {
-  font-size: calc(30px + .5vw);
-  width: 60rem;
-}
-
-.form-container h1 {
-  font-size: calc(50px + .5vw);
 }
 
 .title-contact {
@@ -60,18 +48,14 @@
 }
 
 .inputs {
-  min-height: 50px;
-  min-width: 260px;
+  min-height: 0px;
+  min-width: 0px;
   position: relative;
-  margin-left: 10rem;
-  font-size: calc(19px + .5vw);
+  margin-left: 9rem;
 }
 
 .last {
   margin-left: 4rem;
-  min-height: 50px;
-  min-width: 260px;
-  font-size: calc(19px + .5vw);
 }
 
 .military {
@@ -80,11 +64,9 @@
 }
 
 label {
-  margin-left: 2rem;
-  display: inline-block;
-  padding: 3px 6px;
-  text-align: right;
-  width: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .choose-file {
@@ -96,7 +78,6 @@ label {
 }
 
 .choose-file {
-  min-width: 400px;
   width: 13rem;
 }
 
@@ -140,11 +121,10 @@ input[type=checkbox] {
 button {
   margin-left: 25rem !important;
   margin-top: 1rem !important;
-  min-width: 200px;
-  min-height: 50px;
+  min-width: 0px;
+  min-height: 0px;
   width: 8rem;
   height: 2.5rem;
-  font-size: calc(20px + .5vw) !important;
 }
 
 .button {
