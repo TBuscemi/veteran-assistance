@@ -5,9 +5,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -23,17 +20,20 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  text-align: center;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  text-align: cen;
   background-color: lightblue;
   min-height: 0px;
   min-width: 0px;
-  height: 35rem;
+  height: 100rem;
   width: 20rem;
   margin-top: 8rem;
   padding: 2rem;
   border-radius: 20px;
   color: black;
-  margin-bottom: 30rem;
+  margin-bottom: 10rem;
   -webkit-box-shadow: 8px 8px 12px #05054b;
           box-shadow: 8px 8px 12px #05054b;
 }
@@ -48,25 +48,34 @@
 }
 
 .inputs {
+  margin-left: 2.3rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   min-height: 0px;
   min-width: 0px;
-  position: relative;
-  margin-left: 9rem;
 }
 
 .last {
-  margin-left: 4rem;
+  margin-left: 2.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .military {
+  margin-top: 2rem;
   text-align: center;
-  margin-left: 5rem;
 }
 
 label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-left: 5rem;
 }
 
 .choose-file {
@@ -75,6 +84,7 @@ label {
 
 .branch {
   cursor: pointer;
+  margin-left: 5rem;
 }
 
 .choose-file {
@@ -97,9 +107,8 @@ label {
 }
 
 .terms {
-  width: 35rem;
+  width: 17rem;
   margin-top: 1rem;
-  margin-left: 5rem;
   display: inline-block;
 }
 
@@ -107,19 +116,18 @@ label {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin-left: 5.2rem;
   margin-top: .5rem;
 }
 
 input[type=checkbox] {
-  margin-top: .7rem;
-  -webkit-transform: scale(2.5);
-          transform: scale(2.5);
+  margin-top: .3rem;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
   cursor: pointer;
 }
 
 button {
-  margin-left: 25rem !important;
+  margin-left: 4rem !important;
   margin-top: 1rem !important;
   min-width: 0px;
   min-height: 0px;

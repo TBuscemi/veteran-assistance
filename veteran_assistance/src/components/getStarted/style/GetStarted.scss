@@ -1,7 +1,6 @@
 .form-wrapper{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:center;
     flex-direction: column;
     margin-top: 3rem;
 }
@@ -10,17 +9,18 @@
 .form-container{
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items:left;
+    text-align: cen;
     background-color: lightblue;
     min-height: 0px;
     min-width: 0px;
-    height: 35rem;
+    height: 100rem;
     width: 20rem;
     margin-top: 8rem;
     padding: 2rem;
     border-radius: 20px;
     color: black;
-    margin-bottom: 30rem ;
+    margin-bottom: 10rem ;
     box-shadow: 8px 8px 12px rgb(5, 5, 75);
     & h5{
         // font-size: calc(50px + .5vw);
@@ -46,28 +46,32 @@
     text-align: center;
 }
 .inputs{ 
+    margin-left: 2.3rem;
+    justify-content: center;
+    display: flex;
     min-height: 0px;
     min-width:0px;
-    position: relative;
-    margin-left: 9rem;
     // font-size: calc(19px + .5vw);
 }
 
 
 .last{
-    margin-left: 4rem;
+       margin-left: 2.3rem;
+    display: flex;
     // min-height: 50px;
     // min-width:260px;
     // font-size: calc(19px + .5vw);
 }
 
 .military{
+    margin-top: 2rem;
     text-align: center;
-    margin-left:5rem;
 }
 
 label{
+    
     display: flex;
+    margin-left: 5rem;
     
 }
 
@@ -78,6 +82,7 @@ label{
 
 .branch{
     cursor: pointer;
+    margin-left: 5rem;
 }
 
 .choose-file{
@@ -94,29 +99,29 @@ label{
 }
 
 .terms{
-    width: 35rem;
+    width: 17rem;
     margin-top: 1rem;
-    margin-left: 5rem;
+
     display: inline-block;
 }
 
 
 .terms-check-box{
+    
     display: inline-flex;
-    margin-left: 5.2rem;
     margin-top: .5rem;
 }
 
 
 input[type=checkbox] {
-    margin-top: .7rem;
-    transform: scale(2.5);
+    margin-top: .3rem;
+    transform: scale(1.5);
     cursor: pointer;
 }
 
 
 button{
-    margin-left: 25rem !important;
+    margin-left: 4rem !important;
     margin-top: 1rem !important;
     min-width: 0px;
     min-height: 0px;
