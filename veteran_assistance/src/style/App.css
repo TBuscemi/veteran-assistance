@@ -8,4 +8,10 @@ body {
   position: relative;
   width: 200%;
 }
+
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  body {
+    background-size: auto;
+  }
+}
 /*# sourceMappingURL=App.css.map */

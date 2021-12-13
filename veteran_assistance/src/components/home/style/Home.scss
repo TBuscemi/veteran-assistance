@@ -29,7 +29,6 @@
     flex-direction:column;
     height: calc(800px + 3rem);
     min-width: 600px;
-    // min-height: 1300px;
     margin-bottom: 10rem;
     max-width: 60%;
     background-color: lightblue;
@@ -48,7 +47,6 @@
     }
 } 
 
-
 .about-me-picture{
     margin-left: 10rem ;
     display: flex;            
@@ -63,66 +61,41 @@
     border-radius: 10px;
 }
 
-@media only screen and (min-width: 2800px) and (max-width: 4000px){
+@media only screen and (min-width: 500px) and (max-width: 800px){
     .home-container-bubble{
-        margin-top: calc(20rem + 1rem);
-        height: 40vh;
+        margin-top: calc(10rem + 1rem);
+        height: 55vh;
     }
+
+    .about-cont{
+
+    }
+
     .about-wrapper{
-        min-width: 2800px;
-        height: calc(800px + 2rem);
+        min-width: 1200px;
+        height: calc(600px + 2rem);
         flex-direction: row;
         align-items: flex-start;
         justify-content: flex-start;
-        margin-bottom: 25rem;
+        margin-bottom: 30rem;
+        margin-top: 10rem;
         & h3{
-            font-size: calc(6rem + .5rem);
-            padding-left: calc(20rem + .5rem);
+            font-size: calc(2rem + .5rem);
+            width: 1rem;
         }
         & p{
-            padding-top: 10rem;
-            font-size: calc(4rem + .25rem);
-            width: calc(80rem + 2rem);
+            padding-top: 8rem;
+            font-size: calc(1.5rem + .25rem);
+            width: calc(35rem + 2rem);
         }
     } 
-       
+
     .about-me-picture{
         justify-content: left;
         align-items: left;
+        margin-left: 1rem;
+        padding-right: 0;
+        min-width: 25rem;
     }
+
 }
-
-@media only screen and (min-width: 4001px) and (max-width: 8000px){
-    .home-container-bubble{
-        margin-top: calc(20rem + 1rem);
-        height: 55vh;
-    }
-    .about-wrapper{
-        min-width: calc(3200px + 15rem);
-        height: calc(1200px + 2rem);
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: flex-start;
-        margin-bottom: 25rem;
-        & h3{
-            font-size: calc(8rem + .5rem);
-            padding-left: calc(21rem + .5rem);
-            padding-top: 5rem;
-        }
-        & p{
-            padding-top: 18rem;
-            font-size: calc(5rem + .25rem);
-            width: calc(120rem + 2rem);
-            
-        }
-    } 
-       
-    .about-me-picture{
-        min-height: 80rem;
-        min-width: 50rem;
-        align-items: center;
-        margin-top: 5rem;
-    }
-}
-
-
