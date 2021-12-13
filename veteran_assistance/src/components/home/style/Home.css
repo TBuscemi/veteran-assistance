@@ -1,66 +1,63 @@
 .home-container {
   margin-left: 10vw;
   margin-top: 17vh;
-  margin-bottom: 17rem;
 }
 
 .home-container-bubble {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-image: url(../../../images/TransBGStagger.png);
-  position: relative;
   height: 70vh;
   width: 80vw;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  border-radius: 20px;
-}
-
-.home-container-text {
-  color: gold;
-  position: absolute;
-  top: 3rem;
-}
-
-.home-container-text h3 {
-  font-size: 4rem;
-  width: 40%;
-  margin-left: 49.5rem;
-  text-shadow: 9px 9px 15px black;
-}
-
-.bi-linkedin {
-  height: 2.25rem;
 }
 
 .about-wrapper {
-  height: 25.3rem;
-  width: 75rem;
+  display: table;
+  margin-top: 10rem;
+  height: 25rem;
+  min-width: 1200px;
+  min-height: 1200px;
   margin-bottom: 10rem;
-  margin-left: 20%;
-  margin-right: 20%;
+  max-width: 60%;
   background-color: lightblue;
   border-radius: 20px;
 }
 
 .about-wrapper h3 {
+  text-align: center;
+  margin: 0 auto;
   width: 20rem;
   padding: 1rem;
-  margin-left: 35%;
 }
 
 .about-wrapper p {
-  width: 40rem;
-  margin-left: 28%;
+  display: table-row;
+  word-wrap: break-word;
+  text-align: center;
+  width: 60rem;
+  height: 15rem;
+  display: relative;
 }
 
 .about-me-picture {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
   background-image: url(../../../images/15027718_10210185771413577_4029136754926803570_n.jpg);
   height: 25.3rem;
   width: 19rem;
+  min-height: 700px;
+  min-width: 700 px;
   background-repeat: no-repeat;
   background-size: contain;
-  border-bottom-left-radius: 20px;
-  border-top-left-radius: 20px;
-  position: absolute;
+  border-radius: 10px;
+  position: relative;
 }
 /*# sourceMappingURL=Home.css.map */

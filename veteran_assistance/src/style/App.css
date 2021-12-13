@@ -1,20 +1,11 @@
-@import url(c:\Users\Tbusc\Desktop\jennie\frontend\veteran_assistance\src\style\Breakpoints\xxl.css);
-@import url(c:\Users\Tbusc\Desktop\jennie\frontend\veteran_assistance\src\style\Breakpoints\xlg.css);
-@import url(c:\Users\Tbusc\Desktop\jennie\frontend\veteran_assistance\src\style\Breakpoints\lg.css);
-@import url(c:\Users\Tbusc\Desktop\jennie\frontend\veteran_assistance\src\style\Breakpoints\xsm.css);
-@import url(c:\Users\Tbusc\Desktop\jennie\frontend\veteran_assistance\src\style\Breakpoints\sm.css);
-@import url(c:\Users\Tbusc\Desktop\jennie\frontend\veteran_assistance\src\style\Breakpoints\md.css);
 body {
   background-image: url(../images/pawel-nolbert-xe-ss5Tg2mo-unsplash.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main-wrapper {
   margin-top: 8vh;
   position: relative;
-}
-
-h3 {
-  font-size: 4vh;
 }
 /*# sourceMappingURL=App.css.map */

@@ -2,70 +2,40 @@
 .nav-bar {
     background-color: rgb(0, 0, 54);
     position: fixed;
+    display: flex;
     height: 8vh;
     width: 100vw;
     top: 0;
     left: 0;
-    min-height: 50px;
+    min-height: 55px;
+    align-items: center;
     z-index: 2;
-}
 
-.nav-links-container{
-    margin-left: 36rem;
 }
 
 .text-links{
-    font-size: 3vh;
+    font-size: calc(70px + .5vw);
     margin-right: 3vw;
     color: #fdfdfd;
     text-decoration: none;
 }
 
 .logo{
-    position: absolute;
-    height: 8vh;
-    width: 13vw;
-    left: 2vw;
-    // color: lightblue;
+    display: flex;
+    margin-left: 2r;
+    justify-content: start;
+    width: 50%;
     background: -webkit-linear-gradient(45deg, red,white,blue);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 3rem;
-}
-
-.nav-links{
-    margin-left: 12vw;
-    margin-top: 2vh;
+    font-size: calc(100px + .5vw);
+    z-index: 2  ;
 }
 
 
 .text-links:hover{
     color: lightblue;
 }
-
-.bi{
-    fill: #fdfdfd;
-}
-
-.bi:hover{
-    fill:lightblue;
-}
-
-
-.social-media-container{
-    position:absolute;
-    margin-top: 2vh;
-    top: 0;
-    height: 5vh;
-    margin-left: 142rem;
-    text-align: center;
-    
-}
-
-.bi-linkedin{
-    margin-right: 1vw;
-}
-
 
 
 
