@@ -27,12 +27,20 @@
     background-size: contain;
 }
 
-@media only screen and (min-width: 500px) and (max-width: 800px){
+@media only screen and (min-width: 500px){
     .foot-links{
         max-height: calc(10rem + .5rem);
         width: 134%;
     }
     .footer-imgs{
         height: calc(7rem + 1rem);
+    }
+}
+@media only screen and (min-width: 800px){
+    .foot-links{
+        width: 184%;
+    }
+    .footer-imgs{
+        height: calc(5rem + .75rem)
     }
 }
