@@ -16,9 +16,8 @@
 }
 
 .text-links {
-  font-size: calc(13px + .5vw);
-  width: 50%;
-  margin-right: .5rem;
+  font-size: calc(1rem + .5rem);
+  margin-right: 2.5rem;
   color: #fdfdfd;
   text-decoration: none;
 }
@@ -35,7 +34,11 @@
   background: -webkit-linear-gradient(45deg, red, white, blue);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+<<<<<<< HEAD
   font-size: calc(25px + .5vw);
+=======
+  font-size: calc(2rem + .5rem);
+>>>>>>> c58cc322b30226fbbe46d753fa8d9e2704b9d3d6
   z-index: 2;
 }
 

@@ -5,23 +5,23 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  min-height: 400px;
-  width: 100%;
-  height: 20rem;
+  min-height: 100px;
+  width: 123%;
+  height: 10rem;
   background-color: #000036;
   -webkit-box-shadow: 0 50vh 0 50vh #000036;
           box-shadow: 0 50vh 0 50vh #000036;
 }
 
 .footer-imgs {
-  height: 13rem;
+  height: 5rem;
   border-radius: 15px;
 }
 
@@ -31,6 +31,7 @@
 }
 
 .veterans-crisis {
+  margin-left: 2rem;
   background-repeat: no-repeat;
   background-size: contain;
 }

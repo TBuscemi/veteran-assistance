@@ -5,7 +5,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 25rem;
+  margin-bottom: 10rem;
 }
 
 .home-container-bubble {
@@ -17,10 +17,11 @@
           justify-content: center;
   background-image: url(../../../images/TransBGStagger.png);
   height: 60vh;
-  width: 80vw;
+  width: 80rem;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  margin-top: 5rem;
 }
 
 .about-cont {
@@ -49,8 +50,8 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: calc(1200px + 3rem);
-  min-width: 1200px;
+  height: calc(800px + 3rem);
+  min-width: 600px;
   margin-bottom: 10rem;
   max-width: 60%;
   background-color: lightblue;
@@ -58,15 +59,15 @@
 }
 
 .about-wrapper h3 {
-  font-size: calc(70px + .5vw);
+  font-size: calc(2rem + .5rem);
   text-align: center;
   width: 20rem;
   padding: 1rem;
 }
 
 .about-wrapper p {
-  font-size: calc(30px + .5vw);
-  width: 60rem;
+  font-size: calc(1rem + .25rem);
+  width: 400px;
   height: 15rem;
   text-align: justify;
 }
@@ -84,10 +85,8 @@
           justify-content: center;
   margin-top: 2rem;
   background-image: url(../../../images/15027718_10210185771413577_4029136754926803570_n.jpg);
-  height: 25.3rem;
-  width: 19rem;
-  min-height: 700px;
-  min-width: 700px;
+  min-height: 500px;
+  min-width: 500px;
   background-repeat: no-repeat;
   background-size: contain;
   border-radius: 10px;
