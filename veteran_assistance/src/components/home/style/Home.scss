@@ -2,15 +2,13 @@
     display: flex;
     justify-content: center;
     margin-bottom: 25rem;
-    
 }
-
 
 .home-container-bubble{
     display: flex;
     justify-content: center;
     background-image: url(../../../images/TransBGStagger.png);
-    height: 70vh;
+    height: 60vh;
     width: 80vw;
     background-repeat: no-repeat;
     background-size: contain;
@@ -21,7 +19,6 @@
     display: flex;            
     align-items: center;      
     justify-content: center;  
-
 }
 
 .about-wrapper{
@@ -29,9 +26,9 @@
     align-items: center;      
     justify-content: center;  
     flex-direction:column;
-    height: 25rem;
+    height: calc(1200px + 3rem);
     min-width: 1200px;
-    min-height: 1200px;
+    // min-height: 1300px;
     margin-bottom: 10rem;
     max-width: 60%;
     background-color: lightblue;
@@ -46,6 +43,7 @@
         font-size: calc(30px + .5vw);
         width: 60rem;
         height: 15rem;
+        text-align: justify;
     }
 } 
 
@@ -66,5 +64,66 @@
     border-radius: 10px;
 }
 
+@media only screen and (min-width: 2800px) and (max-width: 4000px){
+    .home-container-bubble{
+        margin-top: calc(20rem + 1rem);
+        height: 40vh;
+    }
+    .about-wrapper{
+        min-width: 2800px;
+        height: calc(800px + 2rem);
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-bottom: 25rem;
+        & h3{
+            font-size: calc(6rem + .5rem);
+            padding-left: calc(20rem + .5rem);
+        }
+        & p{
+            padding-top: 10rem;
+            font-size: calc(4rem + .25rem);
+            width: calc(80rem + 2rem);
+        }
+    } 
+       
+    .about-me-picture{
+        justify-content: left;
+        align-items: left;
+    }
+}
+
+@media only screen and (min-width: 4001px) and (max-width: 8000px){
+    .home-container-bubble{
+        margin-top: calc(20rem + 1rem);
+        height: 55vh;
+    }
+    .about-wrapper{
+        min-width: calc(3200px + 15rem);
+        height: calc(1200px + 2rem);
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-bottom: 25rem;
+        & h3{
+            font-size: calc(8rem + .5rem);
+            padding-left: calc(21rem + .5rem);
+            padding-top: 5rem;
+        }
+        & p{
+            padding-top: 18rem;
+            font-size: calc(5rem + .25rem);
+            width: calc(120rem + 2rem);
+            
+        }
+    } 
+       
+    .about-me-picture{
+        min-height: 80rem;
+        min-width: 50rem;
+        align-items: center;
+        margin-top: 5rem;
+    }
+}
 
 

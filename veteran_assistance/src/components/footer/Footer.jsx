@@ -12,15 +12,15 @@ class Footer extends Component {
     render() { 
         return ( 
             <footer>
-                <div className="Foot-links">
+                <div className="foot-links">
                     <div className="safe-helpline" >
                         <a href="https://www.safehelpline.org/" target="_blank">
-                            <img src={safe} height="120px" />
+                            <img className='footer-imgs' src={safe} />
                         </a>
                     </div>
                     <div className="veterans-crisis" >
                         <a href="https://www.veteranscrisisline.net/" target="_blank">
-                            <img src={crisis} height="116px"/>
+                            <img className='footer-imgs' src={crisis}/>
                         </a>
                     </div> 
                 </div>
