@@ -1,34 +1,68 @@
+.form-wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20rem;
+}
+
+
 .form-container{
-    position: relative;
+    display: flex;
+    flex-direction: column;
     background-color: lightblue;
+    min-height: 1600px;
+    min-width: 1200px;
     height: 52rem;
     width: 50rem;
     margin-top: 8rem;
     padding: 2rem;
     border-radius: 20px;
-    margin-left: 39rem;
     color: black;
-    margin-bottom: 5rem ;
+    margin-bottom: 30rem ;
     box-shadow: 8px 8px 12px rgb(5, 5, 75);
+    & h5{
+        font-size: calc(50px + .5vw);
+        text-align: center;
+        width: 20rem;
+        padding: 1rem;
+    }
+    & h6{
+        font-size: calc(23px + .5vw);
+        width: 60rem;
+    }
+    & h4{
+        font-size: calc(30px + .5vw);
+        width: 60rem;
+    }
+    & h1{
+        font-size: calc(50px + .5vw);
+    }
+
 }
+
 
 .title-contact{
-    margin-left: 15rem;
+    text-align: center;
 }
-.inputs{
-    margin-top: 1rem;
+.inputs{ 
+    min-height: 50px;
+    min-width:260px;
     position: relative;
-    margin-left: 2rem;
+    margin-left: 10rem;
+    font-size: calc(19px + .5vw);
 }
 
+
+.last{
+    margin-left: 4rem;
+    min-height: 50px;
+    min-width:260px;
+    font-size: calc(19px + .5vw);
+}
 
 .military{
-    margin-top: 2rem
-}
-
-
-h4{ 
-    margin-left: 13rem;
+    text-align: center;
+    margin-left:5rem;
 }
 
 label{
@@ -49,7 +83,16 @@ label{
 }
 
 .choose-file{
+    min-width: 400px;
     width: 13rem;
+}
+
+.jobs{
+    display: inline-flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row
+ 
 }
 
 .terms{
@@ -68,16 +111,21 @@ label{
 
 
 input[type=checkbox] {
-    transform: scale(1.5);
+    margin-top: .7rem;
+    transform: scale(2.5);
     cursor: pointer;
 }
 
 
 button{
-    margin-left: 18rem !important;
+    margin-left: 25rem !important;
     margin-top: 1rem !important;
+    min-width: 200px;
+    min-height: 50px;
     width: 8rem;
     height: 2.5rem;
+    font-size: calc(20px + .5vw) !important;
+    
 }
 
 .button{
