@@ -63,10 +63,10 @@ render() {
               <input className="inputs" type="number" pattern="[0-9]" name="phone" value={this.state.number} onChange={this.handleChange} placeholder="Phone Number " required/><br/>
               {this.state.errors.phone ? <p className="error">{this.state.errors.phone}</p>:null}
               <label htmlFor=""><h5>Email*</h5></label>
-              <input className="inputs" size="50" type="Email" name="Email" placeholder="Your Email" required/><br/>
+              <input className="inputs"  type="Email" name="Email" placeholder="Your Email" required/><br/>
               {this.state.errors.linkedIn ? <p className="error">{this.state.errors.linkedIn}</p> : null}
               <label htmlFor=""><h5>LinkedIn*</h5></label>
-              <input className="inputs" size="50" type="text" name="linked" value={this.state.linked} onChange={this.handleChange} placeholder=" Your LinkedIn"required/><br/>
+              <input className="inputs"  type="text" name="linked" value={this.state.linked} onChange={this.handleChange} placeholder=" Your LinkedIn"required/><br/>
               <label htmlFor=""><h5>Resume</h5></label>
               <input className="inputs choose-file" type="file" name="attachment" accept="pdf, pdf"/>
               <input type="hidden" name="_next" value="http://localhost:3000/gets-started"/>
@@ -86,7 +86,7 @@ render() {
               <label htmlFor=""><h5>Discharge</h5></label>
               <input className="inputs" type=" Discharge" name="Discharge" placeholder=" Discharge Type"/><br/>
               <label htmlFor=""><h5>Military Job</h5></label>
-              <input className="inputs jobs" size="50" type="MOS/Rating" name="MOS/Rating" placeholder="MOS/Rating/Specialty Code"/><br/>
+              <input className="inputs jobs" type="MOS/Rating" name="MOS/Rating" placeholder="MOS/Rating/Specialty Code"/><br/>
               <div className="terms"><h6> Fair Winds Resources does not discriminate on the basis of age, race, creed, color, national origin, sexual orientation, gender identity or expression, military status, sex, marital status, or disability.</h6></div>
               <span className="terms-check-box"> <input type="checkbox" required /> <h6 className="check-box-words">I Understand the above terms</h6></span><br/>
               {this.state.errors.error ? <button className="button" type="submit" disabled>Submit</button> : <button className="button" type="submit">Submit</button> }
