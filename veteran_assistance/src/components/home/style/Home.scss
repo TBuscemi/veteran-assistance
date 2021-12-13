@@ -61,7 +61,7 @@
     border-radius: 10px;
 }
 
-@media only screen and (min-width: 500px) and (max-width: 800px){
+@media only screen and (min-width: 500px){
     .home-container-bubble{
         margin-top: calc(10rem + 1rem);
         height: 55vh;
@@ -96,6 +96,38 @@
         margin-left: 1rem;
         padding-right: 0;
         min-width: 25rem;
+    }
+
+}
+@media only screen and (min-width: 800px){
+    .home-container-bubble{
+        height: 95vh;
+        width: 100rem;
+    }
+
+    .about-wrapper{
+        min-width: calc(1400px + 15rem);
+        height: calc(600px + 2rem);
+        margin-bottom: 10rem;
+        margin-top: 10rem;
+        & h3{
+            font-size: calc(3rem + .5rem);
+            width: 1rem;
+        }
+        & p{
+            padding-top: 8rem;
+            font-size: calc(2rem + .25rem);
+            width: calc(55rem + 2rem);
+        }
+    } 
+
+    .about-me-picture{
+        justify-content: left;
+        align-items: left;
+        margin-left: 3rem;
+        padding-right: 0;
+        min-width: 35rem;
+        min-height: 35rem;
     }
 
 }
