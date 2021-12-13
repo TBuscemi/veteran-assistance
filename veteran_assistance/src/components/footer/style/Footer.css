@@ -43,4 +43,11 @@
     height: 18rem;
   }
 }
+
+@media only screen and (min-width: 4001px) and (max-width: 8000px) {
+  .footer-imgs {
+    margin-top: 15rem;
+    height: 22rem;
+  }
+}
 /*# sourceMappingURL=Footer.css.map */

@@ -68,6 +68,7 @@
   font-size: calc(30px + .5vw);
   width: 60rem;
   height: 15rem;
+  text-align: justify;
 }
 
 .about-me-picture {
@@ -128,6 +129,46 @@
     -webkit-box-align: left;
         -ms-flex-align: left;
             align-items: left;
+  }
+}
+
+@media only screen and (min-width: 4001px) and (max-width: 8000px) {
+  .home-container-bubble {
+    margin-top: calc(20rem + 1rem);
+    height: 55vh;
+  }
+  .about-wrapper {
+    min-width: calc(3200px + 15rem);
+    height: calc(1200px + 2rem);
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-bottom: 25rem;
+  }
+  .about-wrapper h3 {
+    font-size: calc(8rem + .5rem);
+    padding-left: calc(21rem + .5rem);
+    padding-top: 5rem;
+  }
+  .about-wrapper p {
+    padding-top: 18rem;
+    font-size: calc(5rem + .25rem);
+    width: calc(120rem + 2rem);
+  }
+  .about-me-picture {
+    min-height: 80rem;
+    min-width: 50rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 5rem;
   }
 }
 /*# sourceMappingURL=Home.css.map */

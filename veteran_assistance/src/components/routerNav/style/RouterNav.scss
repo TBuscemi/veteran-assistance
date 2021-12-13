@@ -46,3 +46,13 @@
         margin-left: calc(3rem + 1rem);
     }
 }
+@media only screen and (min-width: 4001px) and (max-width: 8000px){
+    .text-links{
+        font-size: calc(8rem + .5rem);
+        margin-left: calc(7rem + 1rem);
+    }
+    .logo{
+        margin-left: calc(5rem + 2rem);
+        font-size: calc(15rem + 1rem);
+    }
+}
