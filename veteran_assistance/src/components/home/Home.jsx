@@ -10,14 +10,18 @@ class Home extends Component {
     render() { 
         return (  
         <div className="main-wrapper">
-            <div className ="home-container">
-                <div className="home-container-bubble"></div>
-                <div className="home-container-text"></div>
-            </div>
-            <div className="about-wrapper">
-                <div className="about-me-picture"></div>
-                <h3 className="about-title">About</h3>
-                <p classname="about-P">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet magnam hic ut, debitis modi unde eos soluta nulla temporibus consequuntur necessitatibus inventore error iure nobis quos voluptatem ipsam libero dignissimos?</p> 
+            <div className='home-wrapper'>
+                <div className ="home-container">
+                    <div className="home-container-bubble"></div>
+                    <div className="home-container-text"></div>
+                </div>
+                <div className='about-cont'>
+                    <div className="about-wrapper">
+                        <div className="about-me-picture"> </div>
+                        <h3 className="about-title">About</h3>
+                        <p className="about-P">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet magnam hic ut, debitis modi unde eos soluta nulla temporibus consequuntur necessitatibus inventore error iure nobis quos voluptatem ipsam libero dignissimos?</p> 
+                    </div>
+                </div>
             </div>
         </div>
         );

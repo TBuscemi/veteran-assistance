@@ -1,6 +1,11 @@
 .home-container {
-  margin-left: 10vw;
-  margin-top: 17vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 25rem;
 }
 
 .home-container-bubble {
@@ -18,9 +23,32 @@
   background-position: center;
 }
 
+.about-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .about-wrapper {
-  display: table;
-  margin-top: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: 25rem;
   min-width: 1200px;
   min-height: 1200px;
@@ -31,33 +59,37 @@
 }
 
 .about-wrapper h3 {
+  font-size: calc(70px + .5vw);
   text-align: center;
-  margin: 0 auto;
   width: 20rem;
   padding: 1rem;
 }
 
 .about-wrapper p {
-  display: table-row;
-  word-wrap: break-word;
-  text-align: center;
+  font-size: calc(30px + .5vw);
   width: 60rem;
   height: 15rem;
-  display: relative;
 }
 
 .about-me-picture {
+  margin-left: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 2rem;
-  margin-left: auto;
-  margin-right: auto;
   background-image: url(../../../images/15027718_10210185771413577_4029136754926803570_n.jpg);
   height: 25.3rem;
   width: 19rem;
   min-height: 700px;
-  min-width: 700 px;
+  min-width: 700px;
   background-repeat: no-repeat;
   background-size: contain;
   border-radius: 10px;
-  position: relative;
 }
 /*# sourceMappingURL=Home.css.map */
