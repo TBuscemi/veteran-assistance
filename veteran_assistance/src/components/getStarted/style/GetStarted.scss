@@ -41,6 +41,7 @@
     text-align: center;
 }
 .inputs{ 
+    width: 11rem;
     margin-left: 5rem;
     justify-content: center;
     display: inline-flex;
@@ -51,6 +52,7 @@
 
 
 .last{
+    width: 11rem;
     margin-left: 2rem;
     display: inline-flex;
 
@@ -62,7 +64,7 @@
 }
 
 label{
-    display: flex;
+    display: inline-flex;
 }
 
 
@@ -164,6 +166,7 @@ input::-webkit-inner-spin-button {
 
 
     .inputs{ 
+        display: inline-flex;
         margin-left: 11rem;
         width: 15rem;
         height:2.5rem;
@@ -246,6 +249,7 @@ input::-webkit-inner-spin-button {
 
 
     .inputs{ 
+        display: inline-flex;
         margin-left: 11rem;
         width: 22rem;
         height:3rem;
@@ -333,6 +337,7 @@ input::-webkit-inner-spin-button {
 
 
     .inputs{ 
+        display: inline-flex;
         margin-left: 11rem;
         width: 22rem;
         height:3rem;
@@ -420,6 +425,7 @@ input::-webkit-inner-spin-button {
 
 
     .inputs{ 
+        display: inline-flex;
         margin-left: 11rem;
         width: 22rem;
         height:3rem;
@@ -474,7 +480,7 @@ input::-webkit-inner-spin-button {
 }
 
 
-1281px
+
 
 
 

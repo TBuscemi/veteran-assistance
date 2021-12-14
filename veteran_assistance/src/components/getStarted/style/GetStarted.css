@@ -41,6 +41,7 @@
 }
 
 .inputs {
+  width: 11rem;
   margin-left: 5rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -53,6 +54,7 @@
 }
 
 .last {
+  width: 11rem;
   margin-left: 2rem;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -65,9 +67,9 @@
 }
 
 label {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
 .choose-file {
@@ -170,6 +172,9 @@ input::-webkit-inner-spin-button {
     margin-left: 10rem;
   }
   .inputs {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
     margin-left: 11rem;
     width: 15rem;
     height: 2.5rem;
@@ -233,6 +238,9 @@ input::-webkit-inner-spin-button {
     margin-bottom: 2rem;
   }
   .inputs {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
     margin-left: 11rem;
     width: 22rem;
     height: 3rem;
@@ -303,6 +311,82 @@ input::-webkit-inner-spin-button {
     margin-bottom: 2rem;
   }
   .inputs {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-left: 11rem;
+    width: 22rem;
+    height: 3rem;
+    font-size: 2rem;
+  }
+  .last {
+    margin-left: 2rem;
+    width: 22rem;
+    height: 3rem;
+    font-size: 2rem;
+  }
+  .jobs {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  .choose-file {
+    width: 30rem;
+  }
+  button {
+    margin-left: 30rem !important;
+    margin-top: 2rem !important;
+    width: 14rem;
+    height: 4.5rem;
+    font-size: 2.5rem !important;
+  }
+  .check-box-words {
+    margin-top: 2rem;
+    margin-left: 3rem;
+  }
+  input[type=checkbox] {
+    margin-top: 3rem;
+    -webkit-transform: scale(3);
+            transform: scale(3);
+    margin-left: 11rem;
+  }
+  .military {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1281px) {
+  .form-container {
+    margin-top: 10rem;
+    height: 100rem;
+    width: 80rem;
+    margin-bottom: 20rem;
+  }
+  .form-container h5 {
+    width: 0rem;
+    padding: 1rem;
+  }
+  .form-container h6 {
+    font-size: 2rem;
+  }
+  .form-container h4 {
+    font-size: 3rem;
+  }
+  .form-container h1 {
+    font-size: 4rem;
+  }
+  .form-container h5 {
+    font-size: 2.5rem;
+    margin-left: 15rem;
+  }
+  .title-contact {
+    margin-bottom: 2rem;
+  }
+  .inputs {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
     margin-left: 11rem;
     width: 22rem;
     height: 3rem;
