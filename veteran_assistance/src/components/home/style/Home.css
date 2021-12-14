@@ -110,7 +110,7 @@
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    margin-bottom: 30rem;
+    margin-bottom: 45rem;
     margin-top: 10rem;
   }
   .about-wrapper h3 {
@@ -137,8 +137,7 @@
 
 @media only screen and (min-width: 800px) {
   .home-container-bubble {
-    height: 95vh;
-    width: 100rem;
+    height: 85vh;
   }
   .about-wrapper {
     min-width: calc(1400px + 15rem);
@@ -166,6 +165,29 @@
     padding-right: 0;
     min-width: 35rem;
     min-height: 35rem;
+  }
+}
+
+@media only screen and (min-width: 2200px) {
+  .home-container-bubble {
+    -webkit-transform: translateX(30%);
+            transform: translateX(30%);
+    width: 200rem;
+  }
+  .about-wrapper {
+    -webkit-transform: translateX(35%);
+            transform: translateX(35%);
+  }
+}
+
+@media only screen and (min-width: 2800px) {
+  .home-container-bubble {
+    -webkit-transform: translateX(25%);
+            transform: translateX(25%);
+  }
+  .about-wrapper {
+    -webkit-transform: translateX(35%);
+            transform: translateX(35%);
   }
 }
 /*# sourceMappingURL=Home.css.map */

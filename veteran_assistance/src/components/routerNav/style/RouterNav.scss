@@ -48,7 +48,7 @@
         margin-left: calc(3rem + 1rem);
     }
 }
-@media only screen and (min-width: 801px){
+@media only screen and (min-width: 800px){
     .text-links{
         font-size: 2.75rem;
     }
@@ -58,5 +58,31 @@
     }
     .nav-bar{
         height: 10vh;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .text-links{
+        font-size: 2.75rem;
+    }
+    .logo{
+        font-size: calc(3.5rem +.5rem);
+        margin-left: calc(3rem + 1rem);
+    }
+    .nav-bar{
+        height: 10vh;
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 2200px){
+    .text-links{
+        font-size: 2.75rem;
+    }
+    .logo{
+        font-size: calc(5rem +.5rem);
+        margin-left: calc(3rem + 1rem);
+    }
+    .nav-bar{
+        height: 10vh;
+        width: 100%;
     }
 }

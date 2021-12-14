@@ -5,7 +5,7 @@
     justify-content: center;
     flex-direction: row;
     min-height: 100px;
-    width: 123%;
+    width: 100vw;
     height: 10rem;
     background-color: rgb(0, 0, 54);
     box-shadow: 0 50vh 0 50vh rgb(0, 0, 54);
@@ -29,8 +29,8 @@
 
 @media only screen and (min-width: 500px){
     .foot-links{
-        max-height: calc(10rem + .5rem);
-        width: 134%;
+        width: 120vw;
+        height: calc(10rem + .5rem);
     }
     .footer-imgs{
         height: calc(7rem + 1rem);
@@ -38,8 +38,19 @@
 }
 @media only screen and (min-width: 800px){
     .foot-links{
-        width: 184%;
+        width: 130vw;
     }
+    .footer-imgs{
+        height: calc(5rem + .75rem)
+    }
+}
+@media only screen and (min-width: 1200px){
+    .footer-imgs{
+        height: calc(5rem + .75rem)
+    }
+}
+@media only screen and (min-width: 2200px){
+    
     .footer-imgs{
         height: calc(5rem + .75rem)
     }
