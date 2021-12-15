@@ -79,10 +79,6 @@ label {
   display: inline-flex;
 }
 
-.last-label {
-  display: none;
-}
-
 .choose-file {
   width: 11rem;
   cursor: pointer;
@@ -91,11 +87,6 @@ label {
 .branch {
   cursor: pointer;
   margin-left: 5rem;
-}
-
-.jobs {
-  margin-left: 0;
-  width: 18rem;
 }
 
 .terms {
@@ -121,7 +112,7 @@ input[type=checkbox] {
 }
 
 button {
-  margin-left: 8rem !important;
+  margin-left: 4.5rem !important;
   margin-top: 1rem !important;
   min-width: 0px;
   min-height: 0px;
@@ -164,9 +155,6 @@ input::-webkit-inner-spin-button {
   .error {
     margin-left: 7rem;
   }
-  .jobs {
-    margin-left: 7rem;
-  }
 }
 
 @media only screen and (min-width: 600px) {
@@ -177,9 +165,6 @@ input::-webkit-inner-spin-button {
     width: 15rem;
   }
   .error {
-    margin-left: 7rem;
-  }
-  .jobs {
     margin-left: 7rem;
   }
   .form-container h5 {
@@ -201,14 +186,11 @@ input::-webkit-inner-spin-button {
     margin-left: 9rem;
     margin-bottom: .5rem;
   }
-  .jobs {
-    margin-left: 9rem;
-  }
   .choose-file {
     width: 20rem;
   }
   button {
-    margin-left: 20rem !important;
+    margin-left: 11rem !important;
     margin-top: 2rem !important;
     width: 11rem;
     height: 3rem;
@@ -231,6 +213,9 @@ input::-webkit-inner-spin-button {
   .form-container {
     margin-top: 5rem;
     width: 750px;
+  }
+  .button {
+    margin-left: 15rem !important;
   }
 }
 

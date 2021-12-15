@@ -85,7 +85,7 @@ render() {
               <input className="inputs" type="Years of service" name="Years of service" placeholder="Years of service"/><br/>
               <label ><h5>Discharge</h5></label>
               <input className="inputs" type=" Discharge" name="Discharge" placeholder=" Discharge Type"/><br/>
-              <label className="last-label"><h5>MOS<br/>Rating<br/>AFSC</h5></label>
+              <label className="last-label"><h5>Jobs</h5></label>
               <input className="inputs jobs" type="MOS/Rating" name="MOS/Rating" placeholder="MOS/Rating/AFSC"/><br/>
               <div className="terms"><h6> Fair Winds Resources does not discriminate on the basis of age, race, creed, color, national origin, sexual orientation, gender identity or expression, military status, sex, marital status, or disability.</h6></div>
               <span className="terms-check-box"> <input type="checkbox" required /> <h6 className="check-box-words">I Understand the above terms</h6></span><br/>
