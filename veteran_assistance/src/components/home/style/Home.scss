@@ -8,7 +8,8 @@
     display: flex;
     justify-content: center;
     background-image: url(../../../images/TransBGStagger.png);
-    height: 60vh;
+    margin-top:5rem;
+    height: 30vh;
     width: 80rem;
     background-repeat: no-repeat;
     background-size: contain;
@@ -28,7 +29,7 @@
     flex-direction:column;
     height: calc(40rem +5rem);
     min-width: 300px;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
     max-width: 60%;
     background-color: lightblue;
     border-radius: 20px;
@@ -49,8 +50,8 @@
 .about-me-picture{
     margin-top: 2rem;
     background-image: url(../../../images/15027718_10210185771413577_4029136754926803570_n.jpg);
-    height: 100px;
-    width: 75px;
+    height: 15rem;
+    width: 12rem;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;

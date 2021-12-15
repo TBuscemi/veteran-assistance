@@ -57,7 +57,7 @@ render() {
             <h1 className="title-contact">Contact Form</h1>
             <form className="form" method="POST" action="https://formsubmit.co/polarbear494@gmail.com" enctype="multipart/form-data">
               <label><h5>Name*</h5></label>
-              <input className="inputs" type="text" name="First Name" placeholder="First Name" required/>
+              <input className="inputs" type="text" name="First Name" placeholder="First Name" required/><br />
               <input className="last" type="text" name="Last Name" placeholder="Last Name" required /><br/>
               <label htmlFor=""><h5>Phone*</h5></label>
               <input className="inputs" type="number" pattern="[0-9]" name="phone" value={this.state.number} onChange={this.handleChange} placeholder="Phone Number " required/><br/>
@@ -70,7 +70,7 @@ render() {
               <label ><h5>Resume</h5></label>
               <input className="inputs choose-file" type="file" name="attachment" accept="pdf, pdf"/>
               <input type="hidden" name="_next" value="http://localhost:3000/gets-started"/>
-              <div className="military" for="Military Service" > <h4>Military Service If Applicable</h4></div>
+              <div className="military" for="Military Service" > <h4>Military Service (If Applicable)</h4></div>
               <label ><h5>Branch</h5></label>
               <select className="inputs branch" id="Military Service" name="Military Service" required>
                 <option value="None">None</option>
@@ -85,7 +85,7 @@ render() {
               <input className="inputs" type="Years of service" name="Years of service" placeholder="Years of service"/><br/>
               <label ><h5>Discharge</h5></label>
               <input className="inputs" type=" Discharge" name="Discharge" placeholder=" Discharge Type"/><br/>
-              <label><h5>MOS<br/>Rating<br/>AFSC</h5></label>
+              <label className="last-label"><h5>MOS<br/>Rating<br/>AFSC</h5></label>
               <input className="inputs jobs" type="MOS/Rating" name="MOS/Rating" placeholder="MOS/Rating/AFSC"/><br/>
               <div className="terms"><h6> Fair Winds Resources does not discriminate on the basis of age, race, creed, color, national origin, sexual orientation, gender identity or expression, military status, sex, marital status, or disability.</h6></div>
               <span className="terms-check-box"> <input type="checkbox" required /> <h6 className="check-box-words">I Understand the above terms</h6></span><br/>

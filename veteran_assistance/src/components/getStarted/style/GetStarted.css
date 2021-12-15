@@ -5,11 +5,14 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-left: auto;
+  margin-right: auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
   margin-top: 3rem;
+  width: 320px;
 }
 
 .form-container {
@@ -21,9 +24,9 @@
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: lightblue;
-  width: 40rem;
-  margin-top: 8rem;
-  padding: 2rem;
+  width: 320px;
+  margin-top: 3rem;
+  padding: 1rem;
   border-radius: 20px;
   color: black;
   margin-bottom: 10rem;
@@ -31,9 +34,17 @@
           box-shadow: 8px 8px 12px #05054b;
 }
 
+.form-container h1 {
+  font-size: 2rem;
+}
+
 .form-container h5 {
   width: 0rem;
   padding: 1rem;
+}
+
+.form-container h4 {
+  font-size: 1.5rem;
 }
 
 .title-contact {
@@ -55,7 +66,7 @@
 
 .last {
   width: 11rem;
-  margin-left: 2rem;
+  margin-left: 7rem;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -72,8 +83,12 @@ label {
   display: inline-flex;
 }
 
+.last-label {
+  display: none;
+}
+
 .choose-file {
-  width: 13rem;
+  width: 11rem;
   cursor: pointer;
 }
 
@@ -83,11 +98,8 @@ label {
 }
 
 .jobs {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-transform: translateY(80%) !important;
-          transform: translateY(80%) !important;
+  margin-left: 0;
+  width: 18rem;
 }
 
 .terms {
@@ -102,7 +114,7 @@ label {
   display: -ms-inline-flexbox;
   display: inline-flex;
   margin-top: .5rem;
-  margin-left: 10rem;
+  margin-left: 2rem;
 }
 
 input[type=checkbox] {
@@ -113,7 +125,7 @@ input[type=checkbox] {
 }
 
 button {
-  margin-left: 14rem !important;
+  margin-left: 8rem !important;
   margin-top: 1rem !important;
   min-width: 0px;
   min-height: 0px;
@@ -132,9 +144,10 @@ button {
 }
 
 .error {
-  margin-left: 14rem;
+  margin-left: 1rem;
   color: red;
   font-weight: 600;
+  font-size: .75rem;
   padding: 0;
   margin-bottom: 0;
 }

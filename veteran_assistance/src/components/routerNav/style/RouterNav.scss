@@ -34,7 +34,14 @@
 .text-links:hover{
     color: lightblue;
 }
-
+@media only screen and (min-width: 400px){
+    .text-links{
+        font-size:1.4rem;
+    }
+    .logo{
+        font-size: 2.25rem; 
+    }
+}
 @media only screen and (min-width: 500px){
     .text-links{
         font-size:calc(1rem + .25rem);
@@ -55,7 +62,7 @@
         margin-left: calc(3rem + 1rem);
     }
     .nav-bar{
-        height: 10vh;
+        height: 8vh;
     }
 }
 @media only screen and (min-width: 1200px){
