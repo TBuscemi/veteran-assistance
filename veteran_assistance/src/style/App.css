@@ -21,10 +21,4 @@ body {
   position: relative;
   width: 100%;
 }
-
-@media only screen and (min-width: 1200px) {
-  body {
-    overflow-x: hidden;
-  }
-}
 /*# sourceMappingURL=App.css.map */

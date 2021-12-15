@@ -44,11 +44,12 @@
 
 @media only screen and (min-width: 500px) {
   .foot-links {
-    width: 120vw;
-    height: calc(10rem + .5rem);
+    height: 8rem;
+    -webkit-transform: translateX(35%);
+            transform: translateX(35%);
   }
   .footer-imgs {
-    height: calc(7rem + 1rem);
+    height: 5rem;
   }
 }
 

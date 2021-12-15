@@ -83,44 +83,21 @@
 
 @media only screen and (min-width: 500px) {
   .home-container-bubble {
-    margin-top: calc(10rem + 1rem);
+    margin-top: 5rem;
     height: 55vh;
   }
   .about-wrapper {
-    min-width: 1200px;
-    height: calc(600px + 2rem);
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    margin-bottom: 45rem;
-    margin-top: 10rem;
-  }
-  .about-wrapper h3 {
-    font-size: calc(2rem + .5rem);
-    width: 1rem;
+    min-width: 500px;
+    width: calc(500px + 10%);
+    max-width: 650px;
   }
   .about-wrapper p {
-    padding-top: 8rem;
-    font-size: calc(1.5rem + .25rem);
-    width: calc(35rem + 2rem);
+    width: 70%;
+    font-size: 1.25rem;
   }
   .about-me-picture {
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
-    -webkit-box-align: left;
-        -ms-flex-align: left;
-            align-items: left;
-    margin-left: 1rem;
-    padding-right: 0;
-    min-width: 25rem;
+    width: 20rem;
+    height: 20rem;
   }
 }
 
