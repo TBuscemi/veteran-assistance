@@ -103,57 +103,109 @@
 
 @media only screen and (min-width: 800px) {
   .home-container-bubble {
-    height: 85vh;
+    margin-top: 5rem;
+    height: 55vh;
   }
   .about-wrapper {
-    min-width: calc(1400px + 15rem);
-    height: calc(600px + 2rem);
-    margin-bottom: 10rem;
-    margin-top: 10rem;
+    width: 800px;
+    height: calc(400px + 2rem);
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-bottom: 5rem;
   }
   .about-wrapper h3 {
-    font-size: calc(3rem + .5rem);
+    font-size: 2rem;
     width: 1rem;
   }
   .about-wrapper p {
-    padding-top: 8rem;
-    font-size: calc(2rem + .25rem);
-    width: calc(55rem + 2rem);
+    padding-top: 5rem;
+    font-size: 1.25rem;
+    width: 20rem;
   }
   .about-me-picture {
     -webkit-box-pack: left;
         -ms-flex-pack: left;
             justify-content: left;
-    -webkit-box-align: left;
-        -ms-flex-align: left;
-            align-items: left;
-    margin-left: 3rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1rem;
     padding-right: 0;
-    min-width: 35rem;
-    min-height: 35rem;
+    width: 15rem;
+    height: 20rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .home-container-bubble {
+    margin-top: 10rem;
+    height: 65vh;
+    margin-bottom: 5rem;
+  }
+  .about-cont {
+    width: 100%;
+  }
+  .about-wrapper {
+    min-width: 1100px;
+    height: 600px;
+  }
+  .about-wrapper h3 {
+    margin-top: 5rem;
+    font-size: 2.25rem;
+    width: 1rem;
+  }
+  .about-wrapper p {
+    padding-top: 10rem;
+    font-size: 1.5rem;
+    width: 40rem;
+  }
+  .about-me-picture {
+    width: 23rem;
+    height: 28rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .home-container-bubble {
+    margin-top: 10rem;
+    height: 70vh;
+    margin-bottom: 10rem;
   }
 }
 
 @media only screen and (min-width: 2200px) {
   .home-container-bubble {
-    -webkit-transform: translateX(30%);
-            transform: translateX(30%);
-    width: 200rem;
-  }
-  .about-wrapper {
-    -webkit-transform: translateX(35%);
-            transform: translateX(35%);
+    width: 100rem;
   }
 }
 
 @media only screen and (min-width: 2800px) {
   .home-container-bubble {
-    -webkit-transform: translateX(25%);
-            transform: translateX(25%);
+    width: 120rem;
+    margin-top: 0;
   }
   .about-wrapper {
-    -webkit-transform: translateX(35%);
-            transform: translateX(35%);
+    min-width: 1500px;
+    height: 800px;
+  }
+  .about-wrapper h3 {
+    font-size: 3.5rem;
+  }
+  .about-wrapper p {
+    padding-top: 13rem;
+    font-size: 2.25rem;
+    width: 55rem;
+  }
+  .about-me-picture {
+    height: 38rem;
+    width: 30rem;
   }
 }
 /*# sourceMappingURL=Home.css.map */
