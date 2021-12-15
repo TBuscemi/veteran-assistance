@@ -28,7 +28,7 @@
 
 .footer-imgs {
   height: 2.5rem;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 .safe-helpline {
@@ -42,9 +42,20 @@
   background-size: contain;
 }
 
+@media only screen and (min-width: 400px) {
+  .foot-links {
+    height: 5rem;
+    -webkit-transform: translateX(34%);
+            transform: translateX(34%);
+  }
+  .footer-imgs {
+    height: 2.5rem;
+  }
+}
+
 @media only screen and (min-width: 500px) {
   .foot-links {
-    height: 8rem;
+    height: 5rem;
     -webkit-transform: translateX(35%);
             transform: translateX(35%);
   }
