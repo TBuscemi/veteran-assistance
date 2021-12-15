@@ -11,7 +11,7 @@ class Footer extends Component {
     }
     render() { 
         return ( 
-            <footer>
+            <div className="footer">
                 <div className="foot-links">
                     <div className="safe-helpline" >
                         <a href="https://www.safehelpline.org/" target="_blank">
@@ -20,12 +20,11 @@ class Footer extends Component {
                     </div>
                     <div className="veterans-crisis" >
                         <a href="https://www.veteranscrisisline.net/" target="_blank">
-                            <img className='footer-imgs' src={crisis}/>
+                            <img className='footer-imgs' src={crisis} />
                         </a>
                     </div> 
                 </div>
-            </footer>
-
+            </div>
         );
     }
 }

@@ -1,18 +1,19 @@
-
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: 200%;
+    background-color: rgb(0, 0, 54);
+}
 .foot-links{
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: row;
-    min-height: 100px;
-    width: 100vw;
-    height: 10rem;
-    background-color: rgb(0, 0, 54);
-    box-shadow: 0 50vh 0 50vh rgb(0, 0, 54);
+    align-items: center;
+    transform: translateX(25%);
+    height: 5rem;
 }
 
 .footer-imgs{
-    height: 5rem;
+    height: 2.5rem;
     border-radius: 15px;
 }
 
@@ -22,7 +23,7 @@
 }
 
 .veterans-crisis{
-    margin-left: 2rem;
+    margin-left: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
 }

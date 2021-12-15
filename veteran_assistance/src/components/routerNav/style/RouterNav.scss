@@ -10,13 +10,11 @@
     min-height: 55px;
     align-items: center;
     z-index: 2;
-
 }
 
 .text-links{
-    font-size: calc(13px + .5vw);
-    width: 50%;
-    margin-right: .5rem;
+    font-size: .9rem;
+    margin-right: 1rem;
     color: #fdfdfd;
     text-decoration: none;
 }
@@ -29,8 +27,8 @@
     background: -webkit-linear-gradient(45deg, red,white,blue);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: calc(2rem + .5rem);
-    z-index: 2  ;
+    font-size: 1.5rem;
+    z-index: 2;
 }
 
 
