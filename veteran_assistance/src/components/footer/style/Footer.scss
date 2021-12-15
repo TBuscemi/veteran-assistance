@@ -1,20 +1,22 @@
 .footer{
-    display: flex;
+    height: auto;
+    display: inline-flex;
+    justify-content: center;
     flex-direction: row;
-    width: 200%;
+    width: 100%;
     background-color: rgb(0, 0, 54);
 }
 .foot-links{
+    align-items: center;
     display: flex;
     flex-direction: row;
     align-items: center;
-    transform: translateX(25%);
     height: 5rem;
 }
 
 .footer-imgs{
-    height: 2.5rem;
-    border-radius: 5px;
+    height: 2.6rem;
+    border-radius:5px;
 }
 
 .safe-helpline{
@@ -23,7 +25,7 @@
 }
 
 .veterans-crisis{
-    margin-left: 1rem;
+    margin-left: 4rem;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -31,7 +33,7 @@
 @media only screen and (min-width: 400px){
     .foot-links{
         height: 5rem;
-        transform: translateX(34%);
+        // transform: translateX(34%);
     }
     .footer-imgs{
         height:2.5rem;
@@ -41,16 +43,16 @@
 @media only screen and (min-width: 500px){
     .foot-links{
         height: 5rem;
-        transform: translateX(35%);
+        // transform: translateX(35%);
     }
     .footer-imgs{
-        height: 5rem;
+        height: 3.5rem;
     }
 }
 
 @media only screen and (min-width: 800px){
     .foot-links{
-        transform: translateX(25%);
+        // transform: translateX(25%);
     }
     .footer-imgs{
         height: calc(5rem + .75rem)
@@ -58,26 +60,29 @@
 }
 @media only screen and (min-width: 1000px){
     .foot-links{
-        transform: translateX(50%);
+        // transform: translateX(50%);
+    }
+    .footer-imgs{
+        height:3.5rem;
     }
 }
 @media only screen and (min-width: 1200px){
     .foot-links{
-        transform: translateX(65%);
+        // transform: translateX(65%);
     }
 }
 @media only screen and (min-width: 1500px){
     .foot-links{
-        transform: translateX(95%);
+        // transform: translateX(95%);
     }
 }
 @media only screen and (min-width: 1800px){
     .foot-links{
-        transform: translateX(125%);
+        // transform: translateX(125%);
     }
 }
 @media only screen and (min-width: 2200px){
     .foot-links{
-        transform: translateX(150%);
+        // transform: translateX(150%);
     }
 }

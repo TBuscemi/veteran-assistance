@@ -1,16 +1,23 @@
 .footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  height: auto;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  width: 200%;
+  width: 100%;
   background-color: #000036;
 }
 
 .foot-links {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18,16 +25,12 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-transform: translateX(25%);
-          transform: translateX(25%);
+  align-items: center;
   height: 5rem;
 }
 
 .footer-imgs {
-  height: 2.5rem;
+  height: 2.6rem;
   border-radius: 5px;
 }
 
@@ -37,7 +40,7 @@
 }
 
 .veterans-crisis {
-  margin-left: 1rem;
+  margin-left: 4rem;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -45,8 +48,6 @@
 @media only screen and (min-width: 400px) {
   .foot-links {
     height: 5rem;
-    -webkit-transform: translateX(34%);
-            transform: translateX(34%);
   }
   .footer-imgs {
     height: 2.5rem;
@@ -56,56 +57,21 @@
 @media only screen and (min-width: 500px) {
   .foot-links {
     height: 5rem;
-    -webkit-transform: translateX(35%);
-            transform: translateX(35%);
   }
   .footer-imgs {
-    height: 5rem;
+    height: 3.5rem;
   }
 }
 
 @media only screen and (min-width: 800px) {
-  .foot-links {
-    -webkit-transform: translateX(25%);
-            transform: translateX(25%);
-  }
   .footer-imgs {
     height: calc(5rem + .75rem);
   }
 }
 
 @media only screen and (min-width: 1000px) {
-  .foot-links {
-    -webkit-transform: translateX(50%);
-            transform: translateX(50%);
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .foot-links {
-    -webkit-transform: translateX(65%);
-            transform: translateX(65%);
-  }
-}
-
-@media only screen and (min-width: 1500px) {
-  .foot-links {
-    -webkit-transform: translateX(95%);
-            transform: translateX(95%);
-  }
-}
-
-@media only screen and (min-width: 1800px) {
-  .foot-links {
-    -webkit-transform: translateX(125%);
-            transform: translateX(125%);
-  }
-}
-
-@media only screen and (min-width: 2200px) {
-  .foot-links {
-    -webkit-transform: translateX(150%);
-            transform: translateX(150%);
+  .footer-imgs {
+    height: 3.5rem;
   }
 }
 /*# sourceMappingURL=Footer.css.map */

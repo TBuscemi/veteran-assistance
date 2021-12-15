@@ -14,7 +14,7 @@
 }
 
 .text-links{
-    font-size: .9rem;
+    font-size:calc(.7rem + .25rem);
     margin-right: 1rem;
     color: #fdfdfd;
     text-decoration: none;
@@ -47,13 +47,26 @@
 @media only screen and (min-width: 500px){
     .text-links{
         font-size:calc(1rem + .25rem);
-        margin-left: 1.6rem;
+        
     }
     .logo{
         font-size: calc(2rem + .25rem);
         margin-left: 4rem;
     }
 }
+
+@media only screen and (min-width: 700px){
+    .nav-links-container{
+        display: flex;
+        margin-left: 8.5rem;
+    }
+    .text-links{
+        font-size:calc(1.25rem + .25rem);  
+    }
+}
+
+
+
 @media only screen and (min-width: 800px){
     .text-links{
         font-size: 2.25rem;
@@ -67,9 +80,41 @@
         height: 8vh;
     }
 }
-@media only screen and (min-width: 1200px){
+
+
+@media only screen and (min-width: 1024px){
+
+    .nav-links-container{
+        display: flex;
+        margin-left: 12rem;
+    }
+
     .text-links{
-        font-size: 2.5rem;
+        font-size: 1.7rem;
+        margin-right: 2rem;
+    }
+
+    .logo{
+        margin-right: 3rem;
+        font-size: 3.5rem;
+        margin-left: calc(3rem + 1rem);
+    }
+    .nav-bar{
+        height: 8vh;
+    }
+}
+
+
+@media only screen and (min-width: 1200px){
+
+    .nav-links-container{
+        display: flex;
+        margin-left: 17.7rem;
+    }
+    
+    .text-links{
+        font-size: 1.8rem;
+        margin-right: 2rem;
     }
     .logo{
         font-size: calc(3.5rem +.5rem);
@@ -80,8 +125,62 @@
         width: 100%;
     }
 }
-@media only screen and (min-width: 1800px){
+
+
+@media only screen and (min-width: 1440px){
+    .nav-links-container{
+        display: flex;
+        margin-left: 24.9rem;
+    }
+
+    .text-links{
+        font-size: 2rem;
+    }
     .logo{
-        margin-right: 30rem;
+        font-size: calc(3.5rem +.5rem);
+        margin-left: calc(3rem + 1rem);
+    }
+    .nav-bar{
+        height: 5rem;
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 1800px){
+    .nav-links-container{
+        display: flex;
+        margin-left: 40rem;
+    }
+
+    .text-links{
+        font-size: 1.8rem;
+    }
+    .logo{
+        font-size: calc(3.5rem +.5rem);
+        margin-left: calc(3rem + 1rem);
+    }
+    .nav-bar{
+        height: 5rem;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1800px){
+    .nav-links-container{
+        display: flex;
+        margin-left: 68rem;
+    }
+
+    .text-links{
+        font-size: 1.8rem;
+    }
+    .logo{
+        font-size: calc(3.5rem +.5rem);
+        margin-left: calc(3rem + 1rem);
+    }
+    .nav-bar{
+        height: 5rem;
+        width: 100%;
     }
 }
