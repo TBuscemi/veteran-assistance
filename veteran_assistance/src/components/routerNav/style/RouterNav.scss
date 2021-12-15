@@ -69,7 +69,7 @@
 
 @media only screen and (min-width: 800px){
     .text-links{
-        font-size: 2.25rem;
+        font-size: 1.5rem;
     }
     .logo{
         margin-right: 3rem;
@@ -147,10 +147,29 @@
 }
 
 
-@media only screen and (min-width: 1800px){
+@media only screen and (min-width: 1600px){
     .nav-links-container{
         display: flex;
-        margin-left: 40rem;
+        margin-left: 30rem;
+    }
+
+    .text-links{
+        font-size: 1.8rem;
+    }
+    .logo{
+        font-size: calc(3.5rem +.5rem);
+        margin-left: calc(3rem + 1rem);
+    }
+    .nav-bar{
+        height: 5rem;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1700px){
+    .nav-links-container{
+        display: flex;
+        margin-left: 37rem;
     }
 
     .text-links{
@@ -169,7 +188,25 @@
 @media only screen and (min-width: 1800px){
     .nav-links-container{
         display: flex;
-        margin-left: 68rem;
+        margin-left: 40rem;
+    }
+
+    .text-links{
+        font-size: 1.8rem;
+    }
+    .logo{
+        font-size: calc(3.5rem +.5rem);
+        margin-left: calc(3rem + 1rem);
+    }
+    .nav-bar{
+        height: 5rem;
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 2000Px){
+    .nav-links-container{
+        display: flex;
+        margin-left: 47rem;
     }
 
     .text-links{
