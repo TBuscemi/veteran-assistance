@@ -34,10 +34,6 @@
           box-shadow: 8px 8px 12px #05054b;
 }
 
-.form-container h1 {
-  font-size: 2rem;
-}
-
 .form-container h5 {
   width: 0rem;
   padding: 1rem;
@@ -158,287 +154,90 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
+@media only screen and (min-width: 450px) {
+  .form-container {
+    width: 460px;
+  }
+  .inputs, .last {
+    width: 15rem;
+  }
+  .error {
+    margin-left: 7rem;
+  }
+  .jobs {
+    margin-left: 7rem;
+  }
+}
+
 @media only screen and (min-width: 600px) {
   .form-container {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    height: 90rem;
-    width: 60rem;
-    margin-bottom: 45rem;
+    width: 590px;
+  }
+  .inputs, .last {
+    width: 15rem;
+  }
+  .error {
+    margin-left: 7rem;
+  }
+  .jobs {
+    margin-left: 7rem;
   }
   .form-container h5 {
+    font-size: 1.5rem;
     width: 0rem;
     padding: 1rem;
-  }
-  .form-container h6 {
-    font-size: 2rem;
+    margin-right: 2rem;
   }
   .form-container h4 {
-    font-size: 3rem;
+    margin-top: 2rem;
+    font-size: 1.75rem;
   }
-  .form-container h1 {
-    font-size: 3rem;
-  }
-  .form-container h5 {
-    font-size: 2.5rem;
-    margin-left: 10rem;
-  }
-  .inputs {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    margin-left: 11rem;
-    width: 15rem;
+  .inputs, .last {
+    width: 20rem;
     height: 2.5rem;
     font-size: 1.5rem;
   }
   .last {
-    margin-left: 2rem;
-    height: 2.5rem;
-    width: 15rem;
-    font-size: 1.5rem;
+    margin-left: 9rem;
+    margin-bottom: .5rem;
   }
   .jobs {
-    -webkit-transform: translateY(-80%);
-            transform: translateY(-80%);
+    margin-left: 9rem;
   }
   .choose-file {
-    width: 22rem;
+    width: 20rem;
   }
   button {
     margin-left: 20rem !important;
     margin-top: 2rem !important;
     width: 11rem;
-    height: 3.56rem;
-    font-size: 2rem !important;
+    height: 3rem;
+    font-size: 1.5rem !important;
   }
   .check-box-words {
     margin-left: 2rem;
   }
   input[type=checkbox] {
-    margin-top: 1rem;
-    -webkit-transform: scale(3);
-            transform: scale(3);
+    -webkit-transform: scale(2);
+            transform: scale(2);
+  }
+  .error {
+    margin-left: 9rem;
+    font-size: .85rem;
   }
 }
 
 @media only screen and (min-width: 800px) {
   .form-container {
-    margin-top: 10rem;
-    height: 100rem;
-    width: 80rem;
-    margin-bottom: 20rem;
-  }
-  .form-container h5 {
-    width: 0rem;
-    padding: 1rem;
-  }
-  .form-container h6 {
-    font-size: 2rem;
-  }
-  .form-container h4 {
-    font-size: 3rem;
-  }
-  .form-container h1 {
-    font-size: 4rem;
-  }
-  .form-container h5 {
-    font-size: 2.5rem;
-    margin-left: 15rem;
-  }
-  .title-contact {
-    margin-bottom: 2rem;
-  }
-  .inputs {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    margin-left: 11rem;
-    width: 22rem;
-    height: 3rem;
-    font-size: 2rem;
-  }
-  .last {
-    margin-left: 2rem;
-    width: 22rem;
-    height: 3rem;
-    font-size: 2rem;
-  }
-  .jobs {
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
-  }
-  .choose-file {
-    width: 30rem;
-  }
-  button {
-    margin-left: 30rem !important;
-    margin-top: 2rem !important;
-    width: 14rem;
-    height: 4.5rem;
-    font-size: 2.5rem !important;
-  }
-  .check-box-words {
-    margin-top: 2rem;
-    margin-left: 3rem;
-  }
-  input[type=checkbox] {
-    margin-top: 3rem;
-    -webkit-transform: scale(3);
-            transform: scale(3);
-    margin-left: 11rem;
-  }
-  .military {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    text-align: center;
+    margin-top: 5rem;
+    width: 750px;
   }
 }
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1000px) {
   .form-container {
-    margin-top: 10rem;
-    height: 100rem;
-    width: 80rem;
-    margin-bottom: 20rem;
-  }
-  .form-container h5 {
-    width: 0rem;
-    padding: 1rem;
-  }
-  .form-container h6 {
-    font-size: 2rem;
-  }
-  .form-container h4 {
-    font-size: 3rem;
-  }
-  .form-container h1 {
-    font-size: 4rem;
-  }
-  .form-container h5 {
-    font-size: 2.5rem;
-    margin-left: 15rem;
-  }
-  .title-contact {
-    margin-bottom: 2rem;
-  }
-  .inputs {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    margin-left: 11rem;
-    width: 22rem;
-    height: 3rem;
-    font-size: 2rem;
-  }
-  .last {
-    margin-left: 2rem;
-    width: 22rem;
-    height: 3rem;
-    font-size: 2rem;
-  }
-  .jobs {
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
-  }
-  .choose-file {
-    width: 30rem;
-  }
-  button {
-    margin-left: 30rem !important;
-    margin-top: 2rem !important;
-    width: 14rem;
-    height: 4.5rem;
-    font-size: 2.5rem !important;
-  }
-  .check-box-words {
-    margin-top: 2rem;
-    margin-left: 3rem;
-  }
-  input[type=checkbox] {
-    margin-top: 3rem;
-    -webkit-transform: scale(3);
-            transform: scale(3);
-    margin-left: 11rem;
-  }
-  .military {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    text-align: center;
-  }
-}
-
-@media only screen and (min-width: 1281px) {
-  .form-container {
-    margin-top: 10rem;
-    height: 100rem;
-    width: 80rem;
-    margin-bottom: 20rem;
-  }
-  .form-container h5 {
-    width: 0rem;
-    padding: 1rem;
-  }
-  .form-container h6 {
-    font-size: 2rem;
-  }
-  .form-container h4 {
-    font-size: 3rem;
-  }
-  .form-container h1 {
-    font-size: 4rem;
-  }
-  .form-container h5 {
-    font-size: 2.5rem;
-    margin-left: 15rem;
-  }
-  .title-contact {
-    margin-bottom: 2rem;
-  }
-  .inputs {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    margin-left: 11rem;
-    width: 22rem;
-    height: 3rem;
-    font-size: 2rem;
-  }
-  .last {
-    margin-left: 2rem;
-    width: 22rem;
-    height: 3rem;
-    font-size: 2rem;
-  }
-  .jobs {
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
-  }
-  .choose-file {
-    width: 30rem;
-  }
-  button {
-    margin-left: 30rem !important;
-    margin-top: 2rem !important;
-    width: 14rem;
-    height: 4.5rem;
-    font-size: 2.5rem !important;
-  }
-  .check-box-words {
-    margin-top: 2rem;
-    margin-left: 3rem;
-  }
-  input[type=checkbox] {
-    margin-top: 3rem;
-    -webkit-transform: scale(3);
-            transform: scale(3);
-    margin-left: 11rem;
-  }
-  .military {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    text-align: center;
+    margin-top: 8rem;
+    width: 750px;
   }
 }
 /*# sourceMappingURL=GetStarted.css.map */
