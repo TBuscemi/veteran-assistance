@@ -34,6 +34,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 100%;
 }
 
 .about-wrapper {
@@ -50,26 +51,24 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 100%;
   height: calc(40rem +5rem);
-  min-width: 300px;
   margin-bottom: 5rem;
-  max-width: 60%;
   background-color: lightblue;
-  border-radius: 20px;
 }
 
 .about-wrapper h3 {
   font-size: calc(2rem + .5rem);
   text-align: center;
-  width: 20rem;
-  padding: 1rem;
+  width: 50%;
+  padding-top: 1rem;
 }
 
 .about-wrapper p {
   font-size: 1rem;
-  width: 200px;
+  width: 50%;
   height: 15rem;
-  text-align: justify;
+  text-align: center;
 }
 
 .about-me-picture {
@@ -87,13 +86,7 @@
     margin-top: 5rem;
     height: 55vh;
   }
-  .about-wrapper {
-    min-width: 500px;
-    width: calc(500px + 10%);
-    max-width: 650px;
-  }
   .about-wrapper p {
-    width: 70%;
     font-size: 1.25rem;
   }
   .about-me-picture {
@@ -108,28 +101,27 @@
     height: 55vh;
   }
   .about-wrapper {
-    width: 800px;
-    height: calc(400px + 2rem);
-    -webkit-box-orient: horizontal;
+    height: 300px;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-bottom: 5rem;
   }
   .about-wrapper h3 {
     font-size: 2rem;
-    width: 1rem;
   }
   .about-wrapper p {
-    padding-top: 5rem;
+    padding-top: 2rem;
     font-size: 1.25rem;
-    width: 20rem;
   }
   .about-me-picture {
     -webkit-box-pack: left;
@@ -154,8 +146,7 @@
     width: 100%;
   }
   .about-wrapper {
-    min-width: 1100px;
-    height: 600px;
+    height: 500px;
   }
   .about-wrapper h3 {
     margin-top: 5rem;
@@ -163,9 +154,7 @@
     width: 1rem;
   }
   .about-wrapper p {
-    padding-top: 10rem;
     font-size: 1.5rem;
-    width: 40rem;
   }
   .about-me-picture {
     width: 23rem;
@@ -193,16 +182,13 @@
     margin-top: 0;
   }
   .about-wrapper {
-    min-width: 1500px;
-    height: 800px;
+    height: 700px;
   }
   .about-wrapper h3 {
     font-size: 3.5rem;
   }
   .about-wrapper p {
-    padding-top: 13rem;
     font-size: 2.25rem;
-    width: 55rem;
   }
   .about-me-picture {
     height: 38rem;
