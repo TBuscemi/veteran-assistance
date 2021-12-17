@@ -1,5 +1,5 @@
 .nav-bar {
-  background-color: #000036;
+  background-color: #00005a;
   position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -29,9 +29,7 @@
 .logo {
   margin-left: 2rem;
   width: 40%;
-  background: -webkit-linear-gradient(45deg, red, white, blue);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: lightblue;
   font-size: 1.5rem;
   z-index: 2;
 }

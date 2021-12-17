@@ -11,7 +11,7 @@ class RouterNav extends Component {
         return(
             <div>
                 <div className = "nav-bar">
-                <div className = "logo">Fair Winds</div>
+                <div className = "logo">Fair Winds Resources, inc. </div>
                 <div className="nav-links-container">
                     <nav class = "nav-links"> 
                         <NavLink  to="/" className="text-links ext-space" style={({ isActive }) => {return {color: isActive ? "lightblue" : ""};}}> Home</NavLink>
