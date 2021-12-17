@@ -1,8 +1,11 @@
 
 .nav-bar {
+    text-align: center;
     background-color: rgb(0, 0, 90);
     position: fixed;
     display: flex;
+    align-content: center;
+    justify-content: space-evenly;
     flex-direction: row;
     height: 8vh;
     width: 100%;
@@ -14,17 +17,21 @@
 }
 
 .text-links{
+    display: inline-flex;
     font-size:calc(.7rem + .25rem);
-    margin-right: 1rem;
     color: #fdfdfd;
     text-decoration: none;
 }
 
+.nav-space{
+    padding-right: .7rem;
+}
+
 .logo{
-    margin-left: 2rem;
-    width: 40%;
+    width: 32.5%;
+    display: flex;
     color: lightblue;
-    font-size: 1.5rem;
+    font-size: 1rem;
     z-index: 2;
 }
 
@@ -32,15 +39,37 @@
 .text-links:hover{
     color: lightblue;
 }
+
+.bi-linkedin:hover{
+    fill: lightblue;
+}
+
+.bi-linkedin{
+    display: flex;
+    fill: white;
+    height: 1.2rem;
+    width: auto;
+
+}
+
+
 @media only screen and (min-width: 400px){
     .text-links{
-        font-size:1.4rem;
+        font-size:1rem;
         margin-left: .3rem;
     }
     .logo{
-        font-size: 2rem !important; 
+        font-size: 1.2rem !important; 
         margin-left: 1rem;
     }
+
+    .bi-linkedin{
+        margin-left: 1.7rem;
+        height: 1.3rem;
+        width: auto;
+    }
+    
+    
 }
 @media only screen and (min-width: 500px){
     .text-links{
@@ -49,173 +78,169 @@
     }
     .logo{
         font-size: calc(2rem + .25rem);
-        margin-left: 4rem;
+        width: 25%;
     }
+
+}
+
+@media only screen and (min-width: 600px){
+    .text-links{
+        font-size:calc(1rem + .25rem);
+        
+    }
+    .logo{
+        font-size: calc(2rem + .25rem);
+        width: 20.6%;
+        margin-left: 0%;
+    }
+
 }
 
 @media only screen and (min-width: 700px){
     .nav-links-container{
         display: flex;
-        margin-left: 8.5rem;
     }
     .text-links{
-        font-size:calc(1.25rem + .25rem);  
+        font-size: 1.1rem !important; 
     }
+
+    .logo{
+        margin-right: 20rem;
+        font-size: 1.23rem !important;
+        width: 18%;
+    }
+
+    .bi-linkedin{
+            margin-left: 0%;
+        }
+        
 }
 
 
 
 @media only screen and (min-width: 800px){
-    .text-links{
-        font-size: 1.5rem;
-    }
     .logo{
-        margin-right: 3rem;
-        font-size: 3.5rem;
-        margin-left: calc(3rem + 1rem);
+        margin-right: 25rem;
+        font-size: 1.23rem !important;
+        width: 16%;
     }
-    .nav-bar{
-        height: 8vh;
+
+    .text-links{
+        font-size:1.2rem !important;
+        
     }
 }
 
 
 @media only screen and (min-width: 1024px){
 
-    .nav-links-container{
-        display: flex;
-        margin-left: 12rem;
+    .logo{
+        margin-right: 35rem;
+        font-size: 1.5rem!important;
+        width: 15.5%;
     }
 
     .text-links{
-        font-size: 1.7rem;
-        margin-right: 2rem;
+        font-size:1.2rem !important;
+        
     }
-
-    .logo{
-        margin-right: 3rem;
-        font-size: 3.5rem;
-        margin-left: calc(3rem + 1rem);
-    }
-    .nav-bar{
-        height: 8vh;
-    }
+    
 }
 
 
 @media only screen and (min-width: 1200px){
+    .logo{
+        margin-right: 45rem;
+        font-size: 1.5rem!important;
+        width: 13%;
+    }
 
-    .nav-links-container{
-        display: flex;
-        margin-left: 17.7rem;
+    .text-links{
+        font-size:1.3rem !important;
+        
     }
     
-    .text-links{
-        font-size: 1.8rem;
-        margin-right: 2rem;
-    }
-    .logo{
-        font-size: calc(3.5rem +.5rem);
-        margin-left: calc(3rem + 1rem);
-    }
-    .nav-bar{
-        height: 5rem;
-        width: 100%;
-    }
 }
 
 
 @media only screen and (min-width: 1440px){
-    .nav-links-container{
-        display: flex;
-        margin-left: 24.9rem;
+    .nav-bar{
+        height: 10vh;
+    }
+
+    .logo{
+        margin-right: 60rem;
+        font-size: 1.6rem!important;
+        width: 12%;
     }
 
     .text-links{
-        font-size: 2rem;
+        font-size:1.4rem !important;
+        
     }
-    .logo{
-        font-size: calc(3.5rem +.5rem);
-        margin-left: calc(3rem + 1rem);
-    }
-    .nav-bar{
-        height: 5rem;
-        width: 100%;
+
+    .nav-space{
+        padding-right: 1rem;
     }
 }
 
 
 @media only screen and (min-width: 1600px){
-    .nav-links-container{
-        display: flex;
-        margin-left: 30rem;
+    .logo{
+        margin-right: 65rem;
+        font-size: 1.6rem!important;
+        width: 12%;
     }
 
     .text-links{
-        font-size: 1.8rem;
+        font-size:1.4rem !important;
+        margin-right: 1rem; 
     }
-    .logo{
-        font-size: calc(3.5rem +.5rem);
-        margin-left: calc(3rem + 1rem);
+
+    .bi-linkedin{
+        margin-left: 0%;
+        height: 1.5rem;
     }
-    .nav-bar{
-        height: 5rem;
-        width: 100%;
-    }
+   
 }
 
 @media only screen and (min-width: 1700px){
-    .nav-links-container{
-        display: flex;
-        margin-left: 37rem;
+    .logo{
+        margin-right: 70rem;
+        font-size: 1.6rem!important;
+        width: 12%;
     }
 
     .text-links{
-        font-size: 1.8rem;
-    }
-    .logo{
-        font-size: calc(3.5rem +.5rem);
-        margin-left: calc(3rem + 1rem);
-    }
-    .nav-bar{
-        height: 5rem;
-        width: 100%;
+        font-size:1.4rem !important;
+        margin-right: 1rem;
+        
     }
 }
 
 @media only screen and (min-width: 1800px){
-    .nav-links-container{
-        display: flex;
-        margin-left: 40rem;
+    .logo{
+        margin-right: 76rem;
+        font-size: 1.6rem!important;
+        width: 12%;
     }
 
     .text-links{
-        font-size: 1.8rem;
-    }
-    .logo{
-        font-size: calc(3.5rem +.5rem);
-        margin-left: calc(3rem + 1rem);
-    }
-    .nav-bar{
-        height: 5rem;
-        width: 100%;
+        font-size:1.4rem !important;
+        margin-right: 1rem;
+        
     }
 }
 @media only screen and (min-width: 2000Px){
-    .nav-links-container{
-        display: flex;
-        margin-left: 47rem;
+    .logo{
+        margin-right: 86rem;
+        font-size: 1.6rem!important;
+        width: 12%;
     }
 
     .text-links{
-        font-size: 1.8rem;
-    }
-    .logo{
-        font-size: calc(3.5rem +.5rem);
-        margin-left: calc(3rem + 1rem);
-    }
-    .nav-bar{
-        height: 5rem;
-        width: 100%;
+        font-size:1.4rem !important;
+        margin-right: 1rem;
+        
     }
 }
