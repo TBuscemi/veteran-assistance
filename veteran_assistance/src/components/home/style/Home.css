@@ -66,16 +66,15 @@
 
 .about-wrapper p {
   font-size: 1rem;
-  width: 50%;
-  height: 15rem;
+  width: 70%;
   text-align: center;
 }
 
 .about-me-picture {
   margin-top: 2rem;
   background-image: url(../../../images/15027718_10210185771413577_4029136754926803570_n.jpg);
-  height: 15rem;
-  width: 12rem;
+  height: 10rem;
+  width: 8rem;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
@@ -90,8 +89,8 @@
     font-size: 1.25rem;
   }
   .about-me-picture {
-    width: 20rem;
-    height: 20rem;
+    width: 10rem;
+    height: 14rem;
   }
 }
 
@@ -101,7 +100,7 @@
     height: 55vh;
   }
   .about-wrapper {
-    height: 300px;
+    height: 290px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -122,6 +121,7 @@
   .about-wrapper p {
     padding-top: 2rem;
     font-size: 1.25rem;
+    width: 60%;
   }
   .about-me-picture {
     -webkit-box-pack: left;
@@ -131,8 +131,8 @@
     margin-bottom: auto;
     margin-left: 1rem;
     padding-right: 0;
-    width: 15rem;
-    height: 20rem;
+    width: 12rem;
+    height: 16rem;
   }
 }
 
@@ -146,10 +146,9 @@
     width: 100%;
   }
   .about-wrapper {
-    height: 500px;
+    height: 400px;
   }
   .about-wrapper h3 {
-    margin-top: 5rem;
     font-size: 2.25rem;
     width: 1rem;
   }
@@ -157,8 +156,8 @@
     font-size: 1.5rem;
   }
   .about-me-picture {
-    width: 23rem;
-    height: 28rem;
+    width: 16rem;
+    height: 22rem;
   }
 }
 
